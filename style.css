@@ -1,0 +1,104 @@
+html, body, #container /*, and all other map parent selectors*/ {
+  height: 100%;
+  /* overflow: hidden; */
+  width: 100%;
+}
+#map {
+  width: auto;
+  height: 100%;
+}
+
+
+/* html, body
+{
+    height: 100%;
+}
+
+.fill
+{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+} */
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+  background-color:  #588BAE;
+  padding: 0px 0px 0px 0px;
+}
+
+.header h1 {
+  text-align: center; 
+  background-color: #588BAE;
+  padding: 2px 0px 2px 0px;
+  font-family: Garamond;
+  font-size: 50px;
+  border-bottom: solid darkgrey;
+}
+ 
+p{
+  padding: 0px 10px 0px 10px; 
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+nav ul li { 
+  list-style:none;
+  margin-right: 10px; 
+  margin-left: 10px;
+  float: right; 
+}
+
+.box {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background: deepskyblue;
+}
+/* .margin-top-80 {
+  margin-top: 80px;
+} */
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color: darkgrey;
+  height: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  nav[role="custom-dropdown"] {
+    ul {
+      display: none;
+      height: 100%;
+    }
+
+    label {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    label:after {
+        position: absolute;
+        content: "\2261";
+    }
+    
+    input:checked ~ ul {
+      display: block;
+    
+      > li {
+        width: 100%;
+      }        
+    }
+  }
+}

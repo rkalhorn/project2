@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Web Homework Rebecca Kalhorn</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css/" > -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <!-- Leaflet JS & CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+        <!-- d3 JavaScript -->
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+
+   
+   
+    </head>
+
+<body>
+  <!-- Page Title-->
+  <div class="header" text-align:center>
+      <img src="Images/arch4.png" alt="arch4"/>
+    <h1>  Invest St. Louis</h1>
+  </div>
+
+ 
+  <!-- Nav Bar -->
+  
+  
+  <nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <a class="navbar-brand" href="https://rkalhorn.github.io/" >Back to Home Page</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+                <a href="criteria.html" class="nav-link">Invest By</br>Criteria</a>
+            </li>
+            <li class="navbar-item">
+                <a href="zip.html" class="nav-link">Invest By</br>Zip</a>
+            </li>
+            <li class="navbar-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Explore STL By Criteria</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="/Maps.html">Maps</a>
+                      <a class="dropdown-item" href="/Population.html">Population</a>
+                      <a class="dropdown-item" href="/Crime.html">Crime</a>
+                      <a class="dropdown-item" href="/Income.html">Income</a>
+                      <a class="dropdown-item" href="https://roricooper.github.io/"> Education</a>
+                      <a class="dropdown-item" href="https://github.com/rkalhorn/project1/tree/master/Project%201"> Businesses Github repo</a>
+                      <a class="dropdown-item" href="/DiscoverStLouis.pptx"> Project Power Point Presenation</a>
+            </li>
+            
+  
+        </ul>
+    </div>
+  </nav> 
+<hr>
+<div class="row content">
+        <div class="col-sm-6 text-left ">
+ 
+            <p> This page is designed to help you decide how and where you want to invest in St. Louis. We have 3 avenues 
+                for you to gather information in your process.
+                <ol>
+                    <li>
+                        By Criteria:</br>                        In this section you can select various criteria that are important to you in choosing a location for
+                        your business or home. Your critieria will be used to tell you which zip codes match your search. Some 
+                        close matches will be offered too.  
+                    </li>
+                    <li>
+                        By Zip:</br>
+                        If you already know a zip or two where you are interested in investing this isi the area you will want 
+                        to explore. This page will give you some information about the zip code as well as a map with important
+                        places marked. 
+                    </li>
+                    <li>
+                        By Business:</br>
+                        Finally, if you know what kind of business you want to invest in or if you know you are buying a home
+                        we have some suggestions for you on where to invest. 
+                    </li>
+                </ol>
+                We have also included links to explore St. Louis if you are interested in exploring the area by criteria.
+            </p> 
+            </br>    
+        </div>
+
+        <div class="col-sm-6  text-center">
+            <div id="map"></div>
+            <!-- <img src="Images/st_louis_map.jpg" alt="St. Louis nbhd map"/>       -->
+        </div>
+    </div>
+    <div class="row content">
+        <div class="col-sm-12 text-center ">
+            <p>This project brought to you by <a href= https://github.com/roricooper/>Rori Cooper</a>, 
+                <a href = https://github.com/rkalhorn/>Rebecca Kalhorn</a>,
+                <a href= https://github.com/rajeshsikka/>Rajesh Sikka</a>, and
+                <a href= https://github.com/richardxu96/>Richard Xu</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+</br>
+     
+<!-- map div -->
+<div id="map"></div>
+<!-- API key -->
+<script type="text/javascript" src="config.js"></script>
+<!-- JS  -->
+<script type="text/javascript" src="logic.js"></script>
+
+</body>
+
+</html>
