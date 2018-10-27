@@ -4,7 +4,7 @@ var map = L.map("map", {
     zoom: 12
 });
 
-setTimeout(map.invalidateSize(), 1000);
+//setTimeout(map.invalidateSize(), 1000);
 
 //api request
 L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {

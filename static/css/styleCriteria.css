@@ -22,17 +22,85 @@ html, body, #container /*, and all other map parent selectors*/ {
     min-width: 100%;
 } */
 
-.header img {
+ .header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  /* width: 75%;
   height: 75%;
-  background-color:  #588BAE;
+  background-color:  #588BAE; */
   padding: 0px 0px 0px 0px;
 }
 
-.header h1 {
+.header {
+  text-align: center; 
+}
+
+
+.checkboxes {
+  text-align:center;
+  font-size: 16px;
+ }
+
+.checkboxes input{
+  margin: 0px 0px 0px 0px;
+ }
+
+ .checkboxes label{
+   margin: 0px 20px 0px 3px;
+   font-size: 16px;
+ }
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 400px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/*h1 {
   text-align: center; 
   background-color: #588BAE;
   padding: 2px 0px 2px 0px;
@@ -40,12 +108,21 @@ html, body, #container /*, and all other map parent selectors*/ {
   font-size: 50px;
   border-bottom: solid darkgrey;
 }
+
+.header h2 {
+  text-align: center; 
+  /* background-color: #588BAE; */
+  /* padding: 2px 0px 2px 0px;
+  font-family: Garamond;
+  font-size: 45px;
+  /* border-bottom: solid darkgrey; 
+} */ 
  
 p{
   padding: 0px 10px 0px 10px; 
 }
 
-.navbar-brand {
+/* .navbar-brand {
   text-align: center;
 }
 
@@ -54,7 +131,7 @@ nav ul li {
   margin-right: 10px; 
   margin-left: 10px;
   float: right; 
-}
+} */
 
 .box {
   height: 400px;
