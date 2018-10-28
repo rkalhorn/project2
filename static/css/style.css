@@ -59,7 +59,7 @@ p{
   padding: 0px 10px 0px 10px; 
 }
 
-/* .navbar-brand {
+.navbar-brand {
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ nav ul li {
   margin-right: 10px; 
   margin-left: 10px;
   float: right; 
-} */
+}
 
 .box {
   height: 400px;

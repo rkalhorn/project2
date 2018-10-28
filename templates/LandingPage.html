@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Landing Page (Project 2)</title>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+					<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+						<link rel="stylesheet" href="../static/css/style.css" type="text/css">
+							<!-- Leaflet JS & CSS -->
+							<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+							<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+							<!-- d3 JavaScript -->
+							<script src="https://d3js.org/d3.v4.min.js"></script>
+							<style>
+
+
+            /* Add a gray background color and some padding to the footer */
+            footer {
+				background-color: #f2f2f2;
+			  padding: 25px;
+
+            }
+
+            .carousel-inner img {
+              width: 100%; /* Set width to 100% */
+              min-height: 200px;
+
+            }
+
+
+            /* Hide the carousel text when the screen is less than 600 pixels wide */
+
+
+              </style>
+						</head>
+						<!-- Page Title-->
+						<body background="../static/img/bgtrans.PNG">
+							<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+										<a class="navbar-brand" href="#">Portfolio</a>
+									</div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+										<ul class="nav navbar-nav">
+											<li class="active">
+												<a href="#">Home</a>
+											</li>
+											<li>
+												<a href="#">About</a>
+											</li>
+											<li>
+												<a href="#">Gallery</a>
+											</li>
+											<li>
+												<a href="#">Contact</a>
+											</li>
+										</ul>
+										<ul class="nav navbar-nav navbar-right">
+											<li>
+												<a href="#">
+													<span class="glyphicon glyphicon-log-in"></span> Login
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</nav>
+							<div class = "container-fluid" >
+								<br>
+									<div class="header" text-align:center>
+										<img class="img-responsive" src="../static/img/arch.png" alt="arch4" width="700" height="350"/>
+										<h1>Invest St. Louis </h1>
+										<h4>
+											<i class="far fa-hand-point-down"></i>  Please select how you would like to invest
+											<i class="far fa-hand-point-down"></i>
+										</h4>
+									</div>
+								</div>
+								<div class="">
+									<div class="col-sm-3 text-left"></div>
+									<div class="col-sm-3 text-left">
+										<a href="personal.html" class="btn btn-primary btn-lg btn-block btn-huge">
+											<i class="fas fa-user fa-2x"></i>
+											<br> Personal Use
+											</a>
+										</div>
+										<div class="col-sm-3  text-center">
+											<a href="business.html" class="btn btn-primary btn-lg btn-block btn-huge">
+												<i class="fas fa-briefcase fa-2x"></i>
+												<br>Business Use
+												</a>
+												<div class="col-sm-3 text-left "></div>
+											</div>
+											<br>
+												<div class="container-fluid">
+													<div class="col-sm-12 text-center">
+														<h4>Take a "scroll" through our photo gallery of St. Louis Neighborhoods below.</h4>
+														<h5>External resource links are provided at the bottom of each photo.</h5>
+													</div>
+												</div>
+												<div class="container-fluid">
+													<div id="myCarousel" class="carousel slide" data-ride="carousel">
+														<!-- No Indicators Needed too many photos -->
+														<!-- Wrapper for slides -->
+														<div class="carousel-inner" role="listbox">
+															<div class="item active">
+																<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Cabanne_in_Academy_%286792842477%29.jpg/800px-Cabanne_in_Academy_%286792842477%29.jpg" alt="Academy">
+																	<div class="carousel-caption">
+																		<h1>Academy</h1>
+																		<h3>
+																			<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Academy>Click for more info </a>
+																		</h3>
+																	</div>
+																</div>
+																<div class="item">
+																	<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Broadway_in_Baden_%289337536785%29.jpg" alt="Baden">
+																		<div class="carousel-caption">
+																			<h1>Baden</h1>
+																			<h3>
+																				<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Baden>Click for more info </a>
+																			</h3>
+																		</div>
+																	</div>
+																	<div class="item">
+																		<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/STL_Benton_Park.JPG" alt="Benton Park">
+																			<div class="carousel-caption">
+																				<h1>Benton Park</h1>
+																				<h3>
+																					<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Benton%20Park>Click for more info </a>
+																				</h3>
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Bentonpark.jpg" alt="Benton Park West">
+																				<div class="carousel-caption">
+																					<h1>Benton Park West</h1>
+																					<h3>
+																						<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Benton%20Park%20West>Click for more info </a>
+																					</h3>
+																				</div>
+																			</div>
+																			<div class="item">
+																				<img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Bevo_Mill_Restaurant_20150905-190.jpg" alt="Bevo Mill">
+																					<div class="carousel-caption">
+																						<h1>Bevo Mill</h1>
+																						<h3>
+																							<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Bevo%20Mill>Click for more info </a>
+																						</h3>
+																					</div>
+																				</div>
+																				<div class="item">
+																					<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Botanical_Heights_%286%29_%288132962042%29.jpg" alt="Botanical Heights">
+																						<div class="carousel-caption">
+																							<h1>Botanical Heights</h1>
+																							<h3>
+																								<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Botanical%20Heights>Click for more info </a>
+																							</h3>
+																						</div>
+																					</div>
+																					<div class="item">
+																						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Boulevard_Heights_%2828677330840%29.jpg" alt="Boulevard Heights">
+																							<div class="carousel-caption">
+																								<h1>Boulevard Heights</h1>
+																								<h3>
+																									<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Boulevard%20Heights>Click for more info </a>
+																								</h3>
+																							</div>
+																						</div>
+																						<div class="item">
+																							<img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/STL_Carondalet_01.JPG" alt="Carondelet">
+																								<div class="carousel-caption">
+																									<h1>Carondelet</h1>
+																									<h3>
+																										<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Carondelet>Click for more info </a>
+																									</h3>
+																								</div>
+																							</div>
+																							<div class="item">
+																								<img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Carr_Square_Pavillion_%289225715192%29.jpg" alt="Carr Square">
+																									<div class="carousel-caption">
+																										<h1>Carr Square</h1>
+																										<h3>
+																											<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Carr%20Square>Click for more info </a>
+																										</h3>
+																									</div>
+																								</div>
+																								<div class="item">
+																									<img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/STL_Central_West_End_01.jpg" alt="Central West End">
+																										<div class="carousel-caption">
+																											<h1>Central West End</h1>
+																											<h3>
+																												<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Central%20West%20End>Click for more info </a>
+																											</h3>
+																										</div>
+																									</div>
+																									<div class="item">
+																										<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Tiny_Cheltenham_Street_%285607260669%29.jpg" alt="Cheltenham">
+																											<div class="carousel-caption">
+																												<h1>Cheltenham</h1>
+																												<h3>
+																													<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Cheltenham>Click for more info </a>
+																												</h3>
+																											</div>
+																										</div>
+																										<div class="item">
+																											<img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Ancient_Order_of_Hibernians_Parade_St_Louis_MO_March_17_2006.JPG" alt="Clayton-Tamm">
+																												<div class="carousel-caption">
+																													<h1>Clayton-Tamm</h1>
+																													<h3>
+																														<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Clayton-Tamm>Click for more info </a>
+																													</h3>
+																												</div>
+																											</div>
+																											<div class="item">
+																												<img src="https://upload.wikimedia.org/wikipedia/en/3/31/Clifton_lake_south_view.jpg" alt="Clifton Heights">
+																													<div class="carousel-caption">
+																														<h1>Clifton Heights</h1>
+																														<h3>
+																															<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Clifton%20Heights>Click for more info </a>
+																														</h3>
+																													</div>
+																												</div>
+																												<div class="item">
+																													<img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Arch_and_Water_Tower_%2810121677403%29.jpg" alt="College Hill">
+																														<div class="carousel-caption">
+																															<h1>College Hill</h1>
+																															<h3>
+																																<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=College%20Hill>Click for more info </a>
+																															</h3>
+																														</div>
+																													</div>
+																													<div class="item">
+																														<img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Columbus_Square_%2828471984851%29.jpg" alt="Columbus Square">
+																															<div class="carousel-caption">
+																																<h1>Columbus Square</h1>
+																																<h3>
+																																	<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Columbus%20Square>Click for more info </a>
+																																</h3>
+																															</div>
+																														</div>
+																														<div class="item">
+																															<img src="https://upload.wikimedia.org/wikipedia/commons/4/49/STL_Compton_Heights_01.jpg" alt="Compton Heights">
+																																<div class="carousel-caption">
+																																	<h1>Compton Heights</h1>
+																																	<h3>
+																																		<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Compton%20Heights>Click for more info </a>
+																																	</h3>
+																																</div>
+																															</div>
+																															<div class="item">
+																																<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Washington_Terrace_%2834778093934%29.jpg" alt="DeBaliviere Place">
+																																	<div class="carousel-caption">
+																																		<h1>DeBaliviere Place</h1>
+																																		<h3>
+																																			<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=DeBaliviere%20Place>Click for more info </a>
+																																		</h3>
+																																	</div>
+																																</div>
+																																<div class="item">
+																																	<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/FromLacledesLanding.JPG" alt="Downtown">
+																																		<div class="carousel-caption">
+																																			<h1>Downtown</h1>
+																																			<h3>
+																																				<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Downtown>Click for more info </a>
+																																			</h3>
+																																		</div>
+																																	</div>
+																																	<div class="item">
+																																		<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Stlouis-waters.jpg" alt="Downtown West">
+																																			<div class="carousel-caption">
+																																				<h1>Downtown West</h1>
+																																				<h3>
+																																					<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Downtown%20West>Click for more info </a>
+																																				</h3>
+																																			</div>
+																																		</div>
+																																		<div class="item">
+																																			<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/STL_Dutchtown_01.JPG" alt="Dutchtown">
+																																				<div class="carousel-caption">
+																																					<h1>Dutchtown</h1>
+																																					<h3>
+																																						<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Dutchtown>Click for more info </a>
+																																					</h3>
+																																				</div>
+																																			</div>
+																																			<div class="item">
+																																				<img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Ellendale_Intersection_%287398758898%29.jpg" alt="Ellendale">
+																																					<div class="carousel-caption">
+																																						<h1>Ellendale</h1>
+																																						<h3>
+																																							<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Ellendale>Click for more info </a>
+																																						</h3>
+																																					</div>
+																																				</div>
+																																				<div class="item">
+																																					<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Northside_Homes_%286933588671%29.jpg" alt="Fairground">
+																																						<div class="carousel-caption">
+																																							<h1>Fairground</h1>
+																																							<h3>
+																																								<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Fairground>Click for more info </a>
+																																							</h3>
+																																						</div>
+																																					</div>
+																																					<div class="item">
+																																						<img src="https://upload.wikimedia.org/wikipedia/commons/1/13/The_Grove_%2810602410245%29.jpg" alt="Forest Park Southeast">
+																																							<div class="carousel-caption">
+																																								<h1>Forest Park Southeast</h1>
+																																								<h3>
+																																									<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Forest%20Park%20Southeast>Click for more info </a>
+																																								</h3>
+																																							</div>
+																																						</div>
+																																						<div class="item">
+																																							<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Fountain_Park_%2835679905532%29.jpg" alt="Fountain Park">
+																																								<div class="carousel-caption">
+																																									<h1>Fountain Park</h1>
+																																									<h3>
+																																										<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Fountain%20Park>Click for more info </a>
+																																									</h3>
+																																								</div>
+																																							</div>
+																																							<div class="item">
+																																								<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/STL_Fox_Park.JPG" alt="Fox Park">
+																																									<div class="carousel-caption">
+																																										<h1>Fox Park</h1>
+																																										<h3>
+																																											<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Fox%20Park>Click for more info </a>
+																																										</h3>
+																																									</div>
+																																								</div>
+																																								<div class="item">
+																																									<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Antiques_on_McCausland_%285587643111%29.jpg" alt="Franz Park">
+																																										<div class="carousel-caption">
+																																											<h1>Franz Park</h1>
+																																											<h3>
+																																												<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Franz%20Park>Click for more info </a>
+																																											</h3>
+																																										</div>
+																																									</div>
+																																									<div class="item">
+																																										<img src="https://upload.wikimedia.org/wikipedia/en/9/96/Fox_theater_stl.jpg" alt="Grand Center">
+																																											<div class="carousel-caption">
+																																												<h1>Grand Center</h1>
+																																												<h3>
+																																													<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Grand%20Center>Click for more info </a>
+																																												</h3>
+																																											</div>
+																																										</div>
+																																										<div class="item">
+																																											<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/STL_Gravois_Park.JPG" alt="Gravois Park">
+																																												<div class="carousel-caption">
+																																													<h1>Gravois Park</h1>
+																																													<h3>
+																																														<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Gravois%20Park>Click for more info </a>
+																																													</h3>
+																																												</div>
+																																											</div>
+																																											<div class="item">
+																																												<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Dick_Gregory_Place.jpg" alt="Greater Ville">
+																																													<div class="carousel-caption">
+																																														<h1>Greater Ville</h1>
+																																														<h3>
+																																															<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Greater%20Ville>Click for more info </a>
+																																														</h3>
+																																													</div>
+																																												</div>
+																																												<div class="item">
+																																													<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Minerva_and_Montclair_in_Hamilton_Heights.jpg" alt="Hamilton Heights">
+																																														<div class="carousel-caption">
+																																															<h1>Hamilton Heights</h1>
+																																															<h3>
+																																																<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Hamilton%20Heights>Click for more info </a>
+																																															</h3>
+																																														</div>
+																																													</div>
+																																													<div class="item">
+																																														<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/STL_Hi_Pointe_01.JPG" alt="Hi-Pointe">
+																																															<div class="carousel-caption">
+																																																<h1>Hi-Pointe</h1>
+																																																<h3>
+																																																	<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Hi-Pointe>Click for more info </a>
+																																																</h3>
+																																															</div>
+																																														</div>
+																																														<div class="item">
+																																															<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/STL_Holly_Hills_01.JPG" alt="Holly Hills">
+																																																<div class="carousel-caption">
+																																																	<h1>Holly Hills</h1>
+																																																	<h3>
+																																																		<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Holly%20Hills>Click for more info </a>
+																																																	</h3>
+																																																</div>
+																																															</div>
+																																															<div class="item">
+																																																<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Hyde_Park_%2840724351354%29.jpg" alt="Hyde Park">
+																																																	<div class="carousel-caption">
+																																																		<h1>Hyde Park</h1>
+																																																		<h3>
+																																																			<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Hyde%20Park>Click for more info </a>
+																																																		</h3>
+																																																	</div>
+																																																</div>
+																																																<div class="item">
+																																																	<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Rowhomes_%2825997988077%29.jpg" alt="JeffVanderLou">
+																																																		<div class="carousel-caption">
+																																																			<h1>JeffVanderLou</h1>
+																																																			<h3>
+																																																				<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=JeffVanderLou>Click for more info </a>
+																																																			</h3>
+																																																		</div>
+																																																	</div>
+																																																	<div class="item">
+																																																		<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/King%27s_Oak_Homes_-_Lawn_Place_%288540230407%29.jpg" alt="Kings Oak">
+																																																			<div class="carousel-caption">
+																																																				<h1>Kings Oak</h1>
+																																																				<h3>
+																																																					<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Kings%20Oak>Click for more info </a>
+																																																				</h3>
+																																																			</div>
+																																																		</div>
+																																																		<div class="item">
+																																																			<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Wabada_Avenue_in_Kingsway_East_%282%29_%288479926079%29.jpg" alt="Kingsway East">
+																																																				<div class="carousel-caption">
+																																																					<h1>Kingsway East</h1>
+																																																					<h3>
+																																																						<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Kingsway%20East>Click for more info </a>
+																																																					</h3>
+																																																				</div>
+																																																			</div>
+																																																			<div class="item">
+																																																				<img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Union_Blvd_%285253851316%29.jpg" alt="Kingsway West">
+																																																					<div class="carousel-caption">
+																																																						<h1>Kingsway West</h1>
+																																																						<h3>
+																																																							<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Kingsway%20West>Click for more info </a>
+																																																						</h3>
+																																																					</div>
+																																																				</div>
+																																																				<div class="item">
+																																																					<img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Mississippi_St_Louis_USA1.jpg" alt="Kosciusko">
+																																																						<div class="carousel-caption">
+																																																							<h1>Kosciusko</h1>
+																																																							<h3>
+																																																								<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Kosciusko>Click for more info </a>
+																																																							</h3>
+																																																						</div>
+																																																					</div>
+																																																					<div class="item">
+																																																						<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/LafayetteSquareHouses.jpg" alt="Lafayette Square">
+																																																							<div class="carousel-caption">
+																																																								<h1>Lafayette Square</h1>
+																																																								<h3>
+																																																									<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Lafayette%20Square>Click for more info </a>
+																																																								</h3>
+																																																							</div>
+																																																						</div>
+																																																						<div class="item">
+																																																							<img src="https://upload.wikimedia.org/wikipedia/en/6/63/LaSalleParkSkyline.gif" alt="LaSalle Park">
+																																																								<div class="carousel-caption">
+																																																									<h1>LaSalle Park</h1>
+																																																									<h3>
+																																																										<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=LaSalle%20Park>Click for more info </a>
+																																																									</h3>
+																																																								</div>
+																																																							</div>
+																																																							<div class="item">
+																																																								<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Lewis_Place_Historic_District.jpg" alt="Lewis Place">
+																																																									<div class="carousel-caption">
+																																																										<h1>Lewis Place</h1>
+																																																										<h3>
+																																																											<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Lewis%20Place>Click for more info </a>
+																																																										</h3>
+																																																									</div>
+																																																								</div>
+																																																								<div class="item">
+																																																									<img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Lindenwood_Park_Homes_%2835726307613%29.jpg" alt="Lindenwood Park">
+																																																										<div class="carousel-caption">
+																																																											<h1>Lindenwood Park</h1>
+																																																											<h3>
+																																																												<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Lindenwood%20Park>Click for more info </a>
+																																																											</h3>
+																																																										</div>
+																																																									</div>
+																																																									<div class="item">
+																																																										<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Marine_Villa%2C_St._Louis.jpg" alt="Marine Villa">
+																																																											<div class="carousel-caption">
+																																																												<h1>Marine Villa</h1>
+																																																												<h3>
+																																																													<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Marine$20Villa>Click for more info </a>
+																																																												</h3>
+																																																											</div>
+																																																										</div>
+																																																										<div class="item">
+																																																											<img src="https://upload.wikimedia.org/wikipedia/commons/0/06/New_and_Old_in_Mark_Twain_%285528704534%29.jpg" alt="Mark Twain">
+																																																												<div class="carousel-caption">
+																																																													<h1>Mark Twain</h1>
+																																																													<h3>
+																																																														<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Mark%20Twain>Click for more info </a>
+																																																													</h3>
+																																																												</div>
+																																																											</div>
+																																																											<div class="item">
+																																																												<img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Mark_Twain-I-70_Industrial_2.jpg" alt="Mark Twain/I-70 Industrial">
+																																																													<div class="carousel-caption">
+																																																														<h1>Mark Twain/I-70 Industrial</h1>
+																																																														<h3>
+																																																															<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Mark%20Twain/I-70%20Industrial>Click for more info </a>
+																																																														</h3>
+																																																													</div>
+																																																												</div>
+																																																												<div class="item">
+																																																													<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/McKinley_Heights_%2833451242414%29.jpg" alt="McKinley Heights">
+																																																														<div class="carousel-caption">
+																																																															<h1>McKinley Heights</h1>
+																																																															<h3>
+																																																																<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=McKinley%20Heights>Click for more info </a>
+																																																															</h3>
+																																																														</div>
+																																																													</div>
+																																																													<div class="item">
+																																																														<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Midtown_%288280438642%29.jpg" alt="Midtown">
+																																																															<div class="carousel-caption">
+																																																																<h1>Midtown</h1>
+																																																																<h3>
+																																																																	<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Midtown>Click for more info </a>
+																																																																</h3>
+																																																															</div>
+																																																														</div>
+																																																														<div class="item">
+																																																															<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Mount_Pleasant_School_%2834079898205%29.jpg" alt="Mount Pleasant">
+																																																																<div class="carousel-caption">
+																																																																	<h1>Mount Pleasant</h1>
+																																																																	<h3>
+																																																																		<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Mount%20Pleasant>Click for more info </a>
+																																																																	</h3>
+																																																																</div>
+																																																															</div>
+																																																															<div class="item">
+																																																																<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Montgomery_and_Broadway_%288931411311%29.jpg" alt="Near North Riverfront">
+																																																																	<div class="carousel-caption">
+																																																																		<h1>Near North Riverfront</h1>
+																																																																		<h3>
+																																																																			<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Near$20North%20Riverfront>Click for more info </a>
+																																																																		</h3>
+																																																																	</div>
+																																																																</div>
+																																																																<div class="item">
+																																																																	<img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Tilles_Park%2C_Saint_Louis%2C_Missouri.jpg" alt="North Hampton">
+																																																																		<div class="carousel-caption">
+																																																																			<h1>North Hampton</h1>
+																																																																			<h3>
+																																																																				<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=North%20Hampton>Click for more info </a>
+																																																																			</h3>
+																																																																		</div>
+																																																																	</div>
+																																																																	<div class="item">
+																																																																		<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Dynasty_Discount_Beauty_Supply_%26_Foods_%287974659631%29.jpg" alt="North Point">
+																																																																			<div class="carousel-caption">
+																																																																				<h1>North Point</h1>
+																																																																				<h3>
+																																																																					<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=North%20Point>Click for more info </a>
+																																																																				</h3>
+																																																																			</div>
+																																																																		</div>
+																																																																		<div class="item">
+																																																																			<img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/North_Riverfront%2C_St._Louis.jpg" alt="North Riverfront">
+																																																																				<div class="carousel-caption">
+																																																																					<h1>North Riverfront</h1>
+																																																																					<h3>
+																																																																						<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=North%20Riverfront>Click for more info </a>
+																																																																					</h3>
+																																																																				</div>
+																																																																			</div>
+																																																																			<div class="item">
+																																																																				<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Awnings_in_the_O%27Fallon_Neighborhood_%288410146576%29.jpg" alt="O'Fallon">
+																																																																					<div class="carousel-caption">
+																																																																						<h1>O'Fallon</h1>
+																																																																						<h3>
+																																																																							<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=O%27Fallon>Click for more info </a>
+																																																																						</h3>
+																																																																					</div>
+																																																																				</div>
+																																																																				<div class="item">
+																																																																					<img src="https://upload.wikimedia.org/wikipedia/en/8/8d/OldNorthSTL-085.jpg" alt="Old North St. Louis">
+																																																																						<div class="carousel-caption">
+																																																																							<h1>Old North St. Louis</h1>
+																																																																							<h3>
+																																																																								<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Old%20North%20St.%20Louis>Click for more info </a>
+																																																																							</h3>
+																																																																						</div>
+																																																																					</div>
+																																																																					<div class="item">
+																																																																						<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/St._Louis_Patch_01.JPG" alt="Patch">
+																																																																							<div class="carousel-caption">
+																																																																								<h1>Patch</h1>
+																																																																								<h3>
+																																																																									<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Patch>Click for more info </a>
+																																																																								</h3>
+																																																																							</div>
+																																																																						</div>
+																																																																						<div class="item">
+																																																																							<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/STL_Darst_Webbe_02.JPG" alt="Peabody Darst Webbe">
+																																																																								<div class="carousel-caption">
+																																																																									<h1>Peabody Darst Webbe</h1>
+																																																																									<h3>
+																																																																										<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Peabody%20Darst%20Webbe>Click for more info </a>
+																																																																									</h3>
+																																																																								</div>
+																																																																							</div>
+																																																																							<div class="item">
+																																																																								<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Residential_Modern_Infill_-_N._Newstead_%288510189293%29.jpg" alt="Penrose">
+																																																																									<div class="carousel-caption">
+																																																																										<h1>Penrose</h1>
+																																																																										<h3>
+																																																																											<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Penrose>Click for more info </a>
+																																																																										</h3>
+																																																																									</div>
+																																																																								</div>
+																																																																								<div class="item">
+																																																																									<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Princeton_Heights_%2838818889051%29.jpg" alt="Princeton Heights">
+																																																																										<div class="carousel-caption">
+																																																																											<h1>Princeton Heights</h1>
+																																																																											<h3>
+																																																																												<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Princeton%20Heights>Click for more info </a>
+																																																																											</h3>
+																																																																										</div>
+																																																																									</div>
+																																																																									<div class="item">
+																																																																										<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Brick_Homes_on_Castleman_Avenue.jpg" alt="Shaw">
+																																																																											<div class="carousel-caption">
+																																																																												<h1>Shaw</h1>
+																																																																												<h3>
+																																																																													<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Shaw>Click for more info </a>
+																																																																												</h3>
+																																																																											</div>
+																																																																										</div>
+																																																																										<div class="item">
+																																																																											<img src="https://upload.wikimedia.org/wikipedia/commons/1/11/SD_Houses_2.jpg" alt="Skinker-DeBaliviere">
+																																																																												<div class="carousel-caption">
+																																																																													<h1>Skinker-DeBaliviere</h1>
+																																																																													<h3>
+																																																																														<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Skinker-DeBaliviere>Click for more info </a>
+																																																																													</h3>
+																																																																												</div>
+																																																																											</div>
+																																																																											<div class="item">
+																																																																												<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/SoulardMarketSTL.jpg" alt="Soulard">
+																																																																													<div class="carousel-caption">
+																																																																														<h1>Soulard</h1>
+																																																																														<h3>
+																																																																															<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Soulard>Click for more info </a>
+																																																																														</h3>
+																																																																													</div>
+																																																																												</div>
+																																																																												<div class="item">
+																																																																													<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Southampton_Homes_%2823132845576%29.jpg" alt="South Hampton">
+																																																																														<div class="carousel-caption">
+																																																																															<h1>South Hampton</h1>
+																																																																															<h3>
+																																																																																<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=South%20Hampton>Click for more info </a>
+																																																																															</h3>
+																																																																														</div>
+																																																																													</div>
+																																																																													<div class="item">
+																																																																														<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Southwest_Gardens.JPG" alt="Southwest Garden">
+																																																																															<div class="carousel-caption">
+																																																																																<h1>Southwest Garden</h1>
+																																																																																<h3>
+																																																																																	<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Southwest%20Garden>Click for more info </a>
+																																																																																</h3>
+																																																																															</div>
+																																																																														</div>
+																																																																														<div class="item">
+																																																																															<img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Blue_Drewes_%288156292433%29.jpg" alt="St. Louis Hills">
+																																																																																<div class="carousel-caption">
+																																																																																	<h1>St. Louis Hills</h1>
+																																																																																	<h3>
+																																																																																		<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=St.%20Louis%20Hills>Click for more info </a>
+																																																																																	</h3>
+																																																																																</div>
+																																																																															</div>
+																																																																															<div class="item">
+																																																																																<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/STL_St_Louis_Place_01.JPG" alt="St. Louis Place">
+																																																																																	<div class="carousel-caption">
+																																																																																		<h1>St. Louis Place</h1>
+																																																																																		<h3>
+																																																																																			<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=St.%20Louis%20Place>Click for more info </a>
+																																																																																		</h3>
+																																																																																	</div>
+																																																																																</div>
+																																																																																<div class="item">
+																																																																																	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/STL_Gate_01.JPG" alt="The Gate District">
+																																																																																		<div class="carousel-caption">
+																																																																																			<h1>The Gate District</h1>
+																																																																																			<h3>
+																																																																																				<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=The%20Gate%20District>Click for more info </a>
+																																																																																			</h3>
+																																																																																		</div>
+																																																																																	</div>
+																																																																																	<div class="item">
+																																																																																		<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/HillBanner.jpg" alt="The Hill">
+																																																																																			<div class="carousel-caption">
+																																																																																				<h1>The Hill</h1>
+																																																																																				<h3>
+																																																																																					<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=The%20Hill>Click for more info </a>
+																																																																																				</h3>
+																																																																																			</div>
+																																																																																		</div>
+																																																																																		<div class="item">
+																																																																																			<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/STL_The_Ville_01.JPG" alt="The Ville">
+																																																																																				<div class="carousel-caption">
+																																																																																					<h1>The Ville</h1>
+																																																																																					<h3>
+																																																																																						<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=The%20Ville>Click for more info </a>
+																																																																																					</h3>
+																																																																																				</div>
+																																																																																			</div>
+																																																																																			<div class="item">
+																																																																																				<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/STL_Tiffany_Neighborhood_01.JPG" alt="Tiffany">
+																																																																																					<div class="carousel-caption">
+																																																																																						<h1>Tiffany</h1>
+																																																																																						<h3>
+																																																																																							<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Tiffany>Click for more info </a>
+																																																																																						</h3>
+																																																																																					</div>
+																																																																																				</div>
+																																																																																				<div class="item">
+																																																																																					<img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Church_and_Houses_%288992522968%29.jpg" alt="Tower Grove East">
+																																																																																						<div class="carousel-caption">
+																																																																																							<h1>Tower Grove East</h1>
+																																																																																							<h3>
+																																																																																								<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Tower%20Grove%20East>Click for more info </a>
+																																																																																							</h3>
+																																																																																						</div>
+																																																																																					</div>
+																																																																																					<div class="item">
+																																																																																						<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Tower_Grove_Park_Scene_2.jpg" alt="Tower Grove South">
+																																																																																							<div class="carousel-caption">
+																																																																																								<h1>Tower Grove South</h1>
+																																																																																								<h3>
+																																																																																									<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Tower%20Grove%20South>Click for more info </a>
+																																																																																								</h3>
+																																																																																							</div>
+																																																																																						</div>
+																																																																																						<div class="item">
+																																																																																							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Cook_just_West_of_Pendleton_%286090333509%29.jpg" alt="Vandeventer">
+																																																																																								<div class="carousel-caption">
+																																																																																									<h1>Vandeventer</h1>
+																																																																																									<h3>
+																																																																																										<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Vandeventer>Click for more info </a>
+																																																																																									</h3>
+																																																																																								</div>
+																																																																																							</div>
+																																																																																							<div class="item">
+																																																																																								<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/East_on_Windermere_Place_%286792865231%29.jpg" alt="Visitation Park">
+																																																																																									<div class="carousel-caption">
+																																																																																										<h1>Visitation Park</h1>
+																																																																																										<h3>
+																																																																																											<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Visitation%20Park>Click for more info </a>
+																																																																																										</h3>
+																																																																																									</div>
+																																																																																								</div>
+																																																																																								<div class="item">
+																																																																																									<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Last_Buildings_on_the_Horseshoe_%285983853872%29.jpg" alt="Wells/Goodfellow">
+																																																																																										<div class="carousel-caption">
+																																																																																											<h1>Wells/Goodfellow</h1>
+																																																																																											<h3>
+																																																																																												<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Wells/Goodfellow>Click for more info </a>
+																																																																																											</h3>
+																																																																																										</div>
+																																																																																									</div>
+																																																																																									<div class="item">
+																																																																																										<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Concrete_Block_Historic_District_%2819%29_%288200702733%29.jpg" alt="West End">
+																																																																																											<div class="carousel-caption">
+																																																																																												<h1>West End</h1>
+																																																																																												<h3>
+																																																																																													<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=West%20End>Click for more info </a>
+																																																																																												</h3>
+																																																																																											</div>
+																																																																																										</div>
+																																																																																									</div>
+																																																																																									<!-- Left and right controls -->
+																																																																																									<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+																																																																																										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+																																																																																										<span class="sr-only">Previous</span>
+																																																																																									</a>
+																																																																																									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+																																																																																										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+																																																																																										<span class="sr-only">Next</span>
+																																																																																									</a>
+																																																																																								</div>
+																																																																																							</div>
+																																																																																						</div>
+																																																																																						<!-- map div -->
+																																																																																						<div id="map"></div>
+																																																																																						<footer class="container-fluid">
+																																																																																							<div class="col-sm-12 text-center ">
+																																																																																								<p>This project is brought to you by
+																																																																																									<a href= https://github.com/roricooper/>Rori Cooper</a>,
+
+																																																																																								<a href = https://github.com/rkalhorn/>Rebecca Kalhorn</a>,
+
+																																																																																							<a href= https://github.com/rajeshsikka/>Rajesh Sikka</a>, and
+
+																																																																																						<a href= https://github.com/richardxu96/>Richard Xu</a>.
+
+																																																																																				</p>
+																																																																																			</div>
+																																																																																		</footer>
+																																																																																		<!-- API key -->
+																																																																																		<script type="text/javascript" src="../static/js/config.js"></script>
+																																																																																		<!-- JS  -->
+																																																																																		<script type="text/javascript" src="../static/js/logic.js"></script>
+																																																																																	</body>
+																																																																																</html>

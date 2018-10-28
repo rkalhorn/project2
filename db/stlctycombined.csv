@@ -1,0 +1,464 @@
+Type,Name/Price,Address,City,Zip,State,Category,Latitude,Longitude,Date
+B,U.S. Bank,721 Locust St,Saint Louis,63101,MO,Banks & Credit Unions,38.6296616,-90.1916199,10/22/2018
+B,Kim's Kids,720 N Leonard Ave,Saint Louis,63101,MO,Child Care & Day Care,38.63897,-90.22533,10/22/2018
+B,Shell,721 N Tucker Blvd,Saint Louis,63101,MO,Gas Stations/Convenience Stores,38.63305,-90.19665,10/22/2018
+B,Downtown Urgent Care,916 Olive St,Saint Louis,63101,MO,Hospitals/Urgent Care,38.62891942,-90.19382648,10/22/2018
+B,Drury Plaza Hotel St. Louis At The Arch,2 South 4th St,Saint Louis,63101,MO,Hotels,38.6248869,-90.188709,10/22/2018
+B,"Magnolia Hotel St. Louis, A Tribute Portfolio Hotel",421 N 8th St,St. Louis,63101,MO,Hotels,38.630034,-90.192202,10/22/2018
+B,Courtyard by Marriott St. Louis Downtown/Convention Center,823-827 Washington Ave,St. Louis,63101,MO,Hotels,38.63115578,-90.1924052,10/22/2018
+B,Embassy Suites St. Louis - Downtown,610 N 7th St,Saint Louis,63101,MO,Hotels,38.6306,-90.1902237,10/22/2018
+B,Marriott St. Louis Grand,800 Washington Ave,Saint Louis,63101,MO,Hotels,38.6303999,-90.1919974,10/22/2018
+B,Holiday Inn St. Louis - Downtown Conv Ctr,811 N 9th St,St. Louis,63101,MO,Venues & Event Spaces,38.63304,-90.19261,10/22/2018
+B,Hotel Majestic St. Louis,1019 Pine St,Saint Louis,63101,MO,Hotels,38.62848088,-90.19517496,10/22/2018
+B,McDonald's,1119 N Tucker,St. Louis,63101,MO,Fast Food,38.63690795,-90.19548299,10/22/2018
+B,Schnucks Culinaria Pharmacy,315 N 9th St,Saint Louis,63101,MO,Pharmacy,38.629117,-90.1935902,10/22/2018
+B,Mango,1001 Washington Ave,Saint Louis,63101,MO,Restaurant,38.63133252,-90.19396173,10/22/2018
+B,Sauce On The Side,411 N 8th St,Saint Louis,63101,MO,Restaurant,38.62978071,-90.19206343,10/22/2018
+B,Rooster,1104 Locust St,Saint Louis,63101,MO,Restaurant,38.6300227,-90.1957371,10/22/2018
+B,Baileys' Range,920 Olive St,Saint Louis,63101,MO,Restaurant,38.62887,-90.1945099,10/22/2018
+B,Bridge Tap House and Wine Bar,1004 Locust St,Saint Louis,63101,MO,Restaurant,38.6298536,-90.19467106,10/22/2018
+B,Schnucks Culinaria,315 N 9th St,St. Louis,63101,MO,Grocery,38.629117,-90.1935902,10/22/2018
+B,Starbucks,827 Washington Ave,Saint Louis,63101,MO,Coffee & Tea,38.63061922,-90.19187276,10/22/2018
+B,Starbucks,521 Olive St,Saint Louis,63101,MO,Coffee & Tea,38.62822,-90.18993,10/22/2018
+B,Subway,1010 Market St,Saint Louis,63101,MO,Fast Food,38.62683,-90.19634,10/22/2018
+B,Subway,216 N 7th St,Saint Louis,63101,MO,Fast Food,38.62767,-90.19135,10/22/2018
+B,UMB Bank,2 S Broadway,Saint Louis,63102,MO,Banks & Credit Unions,38.6252098,-90.189888,10/22/2018
+B,Overturf Bp Amoco,902 S Broadway,Saint Louis,63102,MO,Gas Stations/Convenience Stores,38.61775,-90.19283,10/22/2018
+B,Hampton Inn St. Louis-Downtown At the Gateway Arch,333 Washington Ave,Saint Louis,63102,MO,Hotels,38.630049,-90.186505,10/22/2018
+B,Four Seasons Hotel,999 N 2nd St,Saint Louis,63102,MO,Hotels,38.63369175,-90.18496315,10/22/2018
+B,The Westin St. Louis,811 Spruce St,Saint Louis,63102,MO,Hotels,38.62371,-90.19503,10/22/2018
+B,Hyatt Regency,315 Chestnut St,Saint Louis,63102,MO,Hotels,38.62616,-90.18771,10/22/2018
+B,Hilton St. Louis at the Ballpark,1 S Broadway,Saint Louis,63102,MO,Hotels,38.62518,-90.19104,10/22/2018
+B,Drury Inn & Suites St. Louis Convention Center,711 North Broadway,Saint Louis,63102,MO,Hotels,38.6312,-90.18843,10/22/2018
+B,Hilton St. Louis Downtown at the Arch,400 Olive St,Saint Louis,63102,MO,Hotels,38.6274545,-90.1881935,10/22/2018
+B,City Place - Downtown,200 N 4th St,St. Louis,63102,MO,Hotels,38.62702138,-90.18818479,10/22/2018
+B,Lumiere Place Casino & Hotels,999 N 2nd St,St. Louis,63102,MO,Hotels,38.63342828,-90.1844977,10/22/2018
+B,Americas Best Value Inn St. Louis Downtown,1100 Lumiere Place Blvd,Saint Louis,63102,MO,Hotels,38.6345663,-90.1854417,10/22/2018
+B,Embassy Suites Hotel,901 N 1st St,Saint Louis,63102,MO,Hotels,38.63158219,-90.18306345,10/22/2018
+B,Lumière Place Casino and Hotel,999 N 2nd St,Saint Louis,63102,MO,Hotels,38.63285,-90.18409,10/22/2018
+B,Broadway Oyster Bar,736 S Broadway,Saint Louis,63102,MO,Restaurant,38.618778,-90.192384,10/22/2018
+B,360 St. Louis,1 S Broadway,Saint Louis,63102,MO,Restaurant,38.62518,-90.19104,10/22/2018
+B,Starbucks,St Louis Hilton At The Ballpark,Saint Louis,63102,MO,Coffee & Tea,38.62518,-90.19104,10/22/2018
+B,Starbucks,315 Chestnut St,Saint Louis,63102,MO,Coffee & Tea,38.6259589,-90.1877807,10/22/2018
+B,Subway,707 N 1st St,Saint Louis,63102,MO,Fast Food,38.6301498,-90.1836014,10/22/2018
+B,Taco Bell,501 Chouteau,Saint Louis,63102,MO,Fast Food,38.617239,-90.193209,10/22/2018
+B,Saint Louis University,3500 Lindell Blvd,Saint Louis,63103,MO,Colleges & Universities,38.63657,-90.23095,10/22/2018
+B,Harris Stowe State University,3026 Laclede Ave,Saint Louis,63103,MO,Colleges & Universities,38.63192,-90.22492,10/22/2018
+B,St. Louis University,One Grand Blvd,Saint Louis,63103,MO,Colleges & Universities,38.6346385,-90.2339157,10/22/2018
+B,Rainbow Castle Child Development Center,1222 Spruce St,Saint Louis,63103,MO,Child Care & Day Care,38.623548,-90.200713,10/22/2018
+B,Childrens Enrichment Center,210 S Ewing Ave,Saint Louis,63103,MO,Child Care & Day Care,38.63034099,-90.2216316,10/22/2018
+B,Downtown Children's Center,607 N 22nd St,Saint Louis,63103,MO,Child Care & Day Care,38.6348667,-90.2107986,10/22/2018
+B,BP,300 S Jefferson,Saint Louis,63103,MO,Gas Stations/Convenience Stores,38.6279716,-90.2165527,10/22/2018
+B,Circle K,35 S Grand Blvd,Saint Louis,63103,MO,Gas Stations/Convenience Stores,38.63365,-90.23441,10/22/2018
+B,Washington Avenue Post,1315 Washington Ave,Saint Louis,63103,MO,Grocery,38.63240685,-90.19891866,10/22/2018
+B,St Louis Union Station Hotel,1820 Market St,Saint Louis,63103,MO,Hotels,38.6295276,-90.20843756,10/22/2018
+B,Drury Inn - St Louis,201 S 20th St,St. Louis,63103,MO,Hotels,38.62802,-90.21047,10/22/2018
+B,Pear Tree Inn St. Louis Near Union Station,2211 Market St,Saint Louis,63103,MO,Hotels,38.6312561,-90.21240997,10/22/2018
+B,St. Louis City Center Hotel,400 S 14th St,Saint Louis,63103,MO,Hotels,38.6242,-90.20206,10/22/2018
+B,Hotel Ignacio,3411 Olive St,Saint Louis,63103,MO,Hotels,38.6366529,-90.22868313,10/22/2018
+B,Courtyard by Marriott St Louis Downtown West,2340 Market Street at Jefferson,St. Louis,63103,MO,Hotels,38.630057,-90.214303,10/22/2018
+B,Residence Inn,525 S Jefferson Ave,Saint Louis,63103,MO,Hotels,38.62680817,-90.21901703,10/22/2018
+B,Grand Center Inn,3716 Grandel Sq,Saint Louis,63103,MO,Bed & Breakfast,38.64112,-90.23351,10/22/2018
+B,Sam Light Loan & Mercantile,2601 Olive St,Saint Louis,63103,MO,Pawn Shops,38.63353,-90.2143,10/22/2018
+B,Pappy's Smokehouse,3106 Olive St,Saint Louis,63103,MO,Restaurant,38.6351466,-90.22400327,10/22/2018
+B,Blood & Sand,1500 St Charles St,Saint Louis,63103,MO,Restaurant,38.6319967,-90.2013358,10/22/2018
+B,Southern,3108 Olive St,Saint Louis,63103,MO,Restaurant,38.6352,-90.2241091,10/22/2018
+B,Hiro Asian Kitchen,1405 Washington Ave,Saint Louis,63103,MO,Restaurant,38.63253509,-90.19980658,10/22/2018
+B,The Schlafly Tap Room,2100 Locust St,Saint Louis,63103,MO,Restaurant,38.63299151,-90.20986847,10/22/2018
+B,The Fountain On Locust,3037 Locust St,Saint Louis,63103,MO,Restaurant,38.63619841,-90.22303803,10/22/2018
+B,Starbucks,212 S Grand Blvd,Saint Louis,63103,MO,Coffee & Tea,38.63266536,-90.23401234,10/22/2018
+B,Subway,1820 Market St,Saint Louis,63103,MO,Fast Food,38.6292797,-90.2068364,10/22/2018
+B,Saint Louis University School of Medicine,1402 S Grand Blvd,Saint Louis,63104,MO,Colleges & Universities,38.62213516,-90.23742676,10/22/2018
+B,Kingdom House,1321 S 11th St,Saint Louis,63104,MO,Child Care & Day Care,38.61529,-90.20284,10/22/2018
+B,SouthSide Early Childhood Center,2101 S Jefferson Ave,Saint Louis,63104,MO,Child Care & Day Care,38.610906,-90.222281,10/22/2018
+B,Family Dollar,1549 S Jefferson Ave,Saint Louis,63104,MO,Department Stores,38.61682011,-90.2207692,10/22/2018
+B,Phillips 66,1647 S Jefferson Ave,Saint Louis,63104,MO,Gas Stations/Convenience Stores,38.61517711,-90.22135735,10/22/2018
+B,Marketing Energy,710 Russell Blvd,Saint Louis,63104,MO,Gas Stations/Convenience Stores,38.60593,-90.20394,10/22/2018
+B,Fields Foods,1500 Lafayette Ave,Saint Louis,63104,MO,Grocery,38.61319497,-90.20797178,10/22/2018
+B,Vincent's 12th Street Market,2400 S 12th St,Saint Louis,63104,MO,Grocery,38.60391,-90.21117,10/22/2018
+B,Soulard Farmers Market,730 Carroll St,Saint Louis,63104,MO,Grocery,38.61055885,-90.20020107,10/22/2018
+B,SSM Health Cardinal Glennon Children's Hospital,1465 S Grand Blvd,Saint Louis,63104,MO,Hospitals/Urgent Care,38.62162,-90.239124,10/22/2018
+B,Napoleon's Retreat,1815 Lafayette Ave,Saint Louis,63104,MO,Bed & Breakfast,38.61411285,-90.21237946,10/22/2018
+B,Dwell 912,912 Hickory St,Saint Louis,63104,MO,Bed & Breakfast,38.615754,-90.199215,10/22/2018
+B,Soulard Residence,2222 Menard St,Saint Louis,63104,MO,Hotels,38.6053886,-90.2081375,10/22/2018
+B,Fleur-de-Lys Mansion,3500 Russell Blvd,Saint Louis,63104,MO,Bed & Breakfast,38.6125465,-90.2380408,10/22/2018
+B,Park Avenue Mansion Bed and Breakfast,2007 Park Ave,Saint Louis,63104,MO,Bed & Breakfast,38.6178,-90.21368,10/22/2018
+B,McDonald's,1919 S Jefferson,St. Louis,63104,MO,Fast Food,38.61249518,-90.22194207,10/22/2018
+B,Cash Advance St Louis,2631 Lafayette Ave,Saint Louis,63104,MO,Check Cashing/Pay-day Loans,38.6150081,-90.2218553,10/22/2018
+B,Walgreens,1530 Lafayette Ave,Saint Louis,63104,MO,Pharmacy,38.61287,-90.2092,10/22/2018
+B,Globe Drug,1900 S Broadway,Saint Louis,63104,MO,Pharmacy,38.60686,-90.20064,10/22/2018
+B,Blues City Deli,2438 McNair Ave,Saint Louis,63104,MO,Restaurant,38.605057,-90.2184098,10/22/2018
+B,Square One Brewery & Distillery,1727 Park Ave,Saint Louis,63104,MO,Restaurant,38.61686862,-90.21093965,10/22/2018
+B,Peacemaker Lobster and Crab,1831 Sidney St,Saint Louis,63104,MO,Restaurant,38.6031914,-90.2155228,10/22/2018
+B,Eleven Eleven,1111 Mississippi Ave,Saint Louis,63104,MO,Restaurant,38.61960417,-90.21291941,10/22/2018
+B,Pizzeoli Wood Fired Pizza,1928 S 12th St,Saint Louis,63104,MO,Restaurant,38.60881,-90.20881,10/22/2018
+B,Mission Taco Joint,908 Lafayette Ave,Saint Louis,63104,MO,Restaurant,38.61059,-90.20327,10/22/2018
+B,Save a Lot Food Store,1601 Jefferson Ave,Saint Louis,63104,MO,Grocery,38.61613464,-90.22174072,10/22/2018
+B,Starbucks,2350 South Grand,Saint Louis,63104,MO,Coffee & Tea,38.6083303,-90.24074105,10/22/2018
+B,Subway,2255 S Grand Blvd,Saint Louis,63104,MO,Fast Food,38.60987,-90.24131,10/22/2018
+B,Subway,1641 S Jefferson Ave,St Louis,63104,MO,Fast Food,38.6161385,-90.2217407,10/22/2018
+B,Subway,1831 S 7th St,Saint Louis,63104,MO,Fast Food,38.608117,-90.202302,10/22/2018
+B,Subway,1628 S Broadway,Saint Louis,63104,MO,Fast Food,38.6090409,-90.199221,10/22/2018
+B,St. Louis Community College-William J. Harrison Education Center,3140 Cass Ave,Saint Louis,63106,MO,Colleges & Universities,38.646754,-90.22365,10/22/2018
+B,Crown Mart 7 Inc,1515 N 13th St,Saint Louis,63106,MO,Gas Stations/Convenience Stores,38.64165736,-90.19452453,10/22/2018
+B,Walgreens,1400 N Grand Blvd,Saint Louis,63106,MO,Pharmacy,38.64684296,-90.22608185,10/22/2018
+B,Safa Bp,1110 Salisbury St,Saint Louis,63107,MO,Gas Stations/Convenience Stores,38.6614099,-90.19802,10/22/2018
+B,U.S. Bank,4301 Lindell Blvd,Saint Louis,63108,MO,Banks & Credit Unions,38.6414299,-90.25080872,10/22/2018
+B,Pulaski Bank,10 Maryland Plz,Saint Louis,63108,MO,Banks & Credit Unions,38.64454,-90.26181,10/22/2018
+B,Fifth Third Bank,1 N Euclid Ave,Saint Louis,63108,MO,Banks & Credit Unions,38.6404943,-90.2622899,10/22/2018
+B,Bank of America,4625 Lindell Blvd Lbby,Saint Louis,63108,MO,Banks & Credit Unions,38.64356976,-90.2605215,10/22/2018
+B,Burger King,5025 Delmar Blvd,Saint Louis,63108,MO,Fast Food,38.652,-90.26437,10/22/2018
+B,Practical Anatomy & Surgical Technique Workshop,3839 Lindell Blvd,Saint Louis,63108,MO,Colleges & Universities,38.6394,-90.23957,10/22/2018
+B,Childgarden Early Childhood Center,4150 Laclede Ave,Saint Louis,63108,MO,Child Care & Day Care,38.6371994,-90.24890137,10/22/2018
+B,Phillips 66,4251 Lindell Blvd,Saint Louis,63108,MO,Gas Stations/Convenience Stores,38.64124,-90.25011,10/22/2018
+B,Straub's,302 N Kingshighway Blvd,Saint Louis,63108,MO,Grocery,38.64568,-90.26403,10/22/2018
+B,Shapiro's Market,111 N Newstead Ave,Saint Louis,63108,MO,Grocery,38.6405726,-90.2548064,10/22/2018
+B,Whole Foods Market,4577 W Pine Blvd,St. Louis,63108,MO,Grocery,38.64180437,-90.26137764,10/22/2018
+B,Aldi's,702 N Kingshighway,Saint Louis,63108,MO,Grocery,38.65212668,-90.26270463,10/22/2018
+B,BJC HealthCare,4901 Forest Park Ave,Saint Louis,63108,MO,Hospitals/Urgent Care,38.627522,-90.19841,10/22/2018
+B,Forest Park Pediatrics,4488 Forest Park Ave,Saint Louis,63108,MO,Hospitals/Urgent Care,38.63773727,-90.25884247,10/22/2018
+B,Urgent Care for Kids,4100 Forest Park Ave,Saint Louis,63108,MO,Hospitals/Urgent Care,38.6352005,-90.2481003,10/22/2018
+B,The Chase Park Plaza,212 N Kingshighway,St. Louis,63108,MO,Hotels,38.64426,-90.2645299,10/22/2018
+B,Holiday Inn Express St Louis - Central West End,4630 Lindell Blvd,St. Louis,63108,MO,Hotels,38.64252866,-90.260968,10/22/2018
+B,The Parkway Hotel,4550 Forest Park Ave,Saint Louis,63108,MO,Hotels,38.63854218,-90.2618103,10/22/2018
+B,McDonald's,4006 Lindell Blvd,St. Louis,63108,MO,Fast Food,38.639122,-90.24366,10/22/2018
+B,Gateway Apothecary,4473 Forest Park Ave,Saint Louis,63108,MO,Pharmacy,38.6382385,-90.2583147,10/22/2018
+B,CVS Pharmacy,3925 Lindell Blvd,Saint Louis,63108,MO,Pharmacy,38.6391898,-90.2419123,10/22/2018
+B,Walgreens,4218 Lindell Blvd,Saint Louis,63108,MO,Pharmacy,38.64022,-90.24928,10/22/2018
+B,West Pine Pharmacy,4401 W Pine Blvd,Saint Louis,63108,MO,Pharmacy,38.64073,-90.25491,10/22/2018
+B,The Medicine Shoppe Pharmacy,625 N Euclid Ave,Saint Louis,63108,MO,Pharmacy,38.651095,-90.261025,10/22/2018
+B,Schnucks Lindell Specialty Pharmacy,3960 Lindell Blvd,Saint Louis,63108,MO,Pharmacy,38.63902105,-90.24319907,10/22/2018
+B,Cork n' Slice,4501 Maryland Ave,Saint Louis,63108,MO,Restaurant,38.64428,-90.25783,10/22/2018
+B,Retreat Gastropub,2 N Sarah St,Saint Louis,63108,MO,Restaurant,38.63723092,-90.24661839,10/22/2018
+B,Brasserie by Niche,4580 Laclede Ave,Saint Louis,63108,MO,Restaurant,38.63998997,-90.26186494,10/22/2018
+B,Juniper,360 N Boyle Ave,Saint Louis,63108,MO,Restaurant,38.64275766,-90.24972274,10/22/2018
+B,The Scottish Arms,8 S Sarah St,Saint Louis,63108,MO,Restaurant,38.63642438,-90.24669765,10/22/2018
+B,Starbucks,4656 Maryland Ave,St Louis,63108,MO,Coffee & Tea,38.64443059,-90.26092807,10/22/2018
+B,Starbucks,3640 W Pine Mall Blvd,Saint Louis,63108,MO,Coffee & Tea,38.6361029,-90.23503668,10/22/2018
+B,Subway,115 N Euclid Ave,Saint Louis,63108,MO,Fast Food,38.64242554,-90.26213074,10/22/2018
+B,Subway,4487 Forest Park Blvd,Saint Louis,63108,MO,Fast Food,38.63845301,-90.25867224,10/22/2018
+B,Subway,4149 Lindell Blvd,Saint Louis,63108,MO,Fast Food,38.6403901,-90.2472379,10/22/2018
+B,Taco Bell,626 N Kings Highway Blvd,Saint Louis,63108,MO,Fast Food,38.650827,-90.263416,10/22/2018
+B,Carrollton Bank,42 Hampton Village Plz,Saint Louis,63109,MO,Banks & Credit Unions,38.5930635,-90.2918611,10/22/2018
+B,Bank of America,4301 Hampton Ave,Saint Louis,63109,MO,Banks & Credit Unions,38.59135818,-90.29558563,10/22/2018
+B,Lindell Bank,3921 Hampton Ave,Saint Louis,63109,MO,Banks & Credit Unions,38.59394,-90.2944799,10/22/2018
+B,First Community Credit Union,4249 Watson Rd,Saint Louis,63109,MO,Banks & Credit Unions,38.59285,-90.3022699,10/22/2018
+B,Step Ahead Child Care,4501 Hampton Ave,Saint Louis,63109,MO,Child Care & Day Care,38.58954,-90.2947499,10/22/2018
+B,Target,4255 Hampton Ave,Saint Louis,63109,MO,Department Stores,38.59254,-90.29557,10/22/2018
+B,JCPenney,50 Hampton Village Plaza,Saint Louis,63109,MO,Department Stores,38.59167454,-90.29252375,10/22/2018
+B,Gas Mart,6901 Hampton Ave,Saint Louis,63109,MO,Gas Stations/Convenience Stores,38.57385,-90.29516,10/22/2018
+B,Total Access Urgent Care,6900 Chippewa St,Saint Louis,63109,MO,Hospitals/Urgent Care,38.5883733,-90.3095236,10/22/2018
+B,Chippewa Accident & Family Care,6651 Chippewa St,Saint Louis,63109,MO,Hospitals/Urgent Care,38.59051895,-90.30587769,10/22/2018
+B,McDonald's,4620 S Kingshighway,St. Louis,63109,MO,Fast Food,38.586273,-90.275726,10/22/2018
+B,Lindenwood Drug,6903 Lansdowne Ave,Saint Louis,63109,MO,Pharmacy,38.59162,-90.31011,10/22/2018
+B,Keller Apothecary,5346 Devonshire Ave,Saint Louis,63109,MO,Pharmacy,38.58752441,-90.28391266,10/22/2018
+B,Walgreens,3920 Hampton Ave,Saint Louis,63109,MO,Pharmacy,38.59376,-90.2933,10/22/2018
+B,Edibles & Essentials,5815 Hampton Ave,Saint Louis,63109,MO,Restaurant,38.5794801,-90.29411092,10/22/2018
+B,Copper Pig,4611 Macklind Ave,Saint Louis,63109,MO,Restaurant,38.58748,-90.28436,10/22/2018
+B,Kounter Kulture,3825 Watson Rd,St. Louis,63109,MO,Restaurant,38.59518,-90.30156,10/22/2018
+B,Russell's on Macklind,5400 Murdoch Ave,Saint Louis,63109,MO,Restaurant,38.586689,-90.284507,10/22/2018
+B,Schnucks - Hampton Village,60 Hampton Village Plz,St. Louis,63109,MO,Grocery,38.5931082,-90.2925643,10/22/2018
+B,Schnucks - Gravois,7450 Hampton Ave,Saint Louis,63109,MO,Grocery,38.56557,-90.29378,10/22/2018
+B,Starbucks,6622 Chippewa St,Saint Louis,63109,MO,Coffee & Tea,38.590613,-90.304927,10/22/2018
+B,Starbucks,4255 Hampton Ave,Saint Louis,63109,MO,Coffee & Tea,38.59254,-90.29557,10/22/2018
+B,Starbucks,3700 S Kingshighway Blvd,Saint Louis,63109,MO,Coffee & Tea,38.5929366,-90.2720705,10/22/2018
+B,Subway,6918 Chippewa St,Saint Louis,63109,MO,Fast Food,38.58842,-90.30962,10/22/2018
+B,U.S. Bank,216 S Kingshighway Blvd,Saint Louis,63110,MO,Banks & Credit Unions,38.63874054,-90.26435089,10/22/2018
+B,Southwest Bank,2301 S Kingshighway Blvd,Saint Louis,63110,MO,Banks & Credit Unions,38.61196,-90.2684699,10/22/2018
+B,Barnes-Jewish Hospital College,4483 Duncan Ave,Saint Louis,63110,MO,Colleges & Universities,38.6370424,-90.2592471,10/22/2018
+B,St. Louis College of Pharmacy,4588 Parkview Pl,Saint Louis,63110,MO,Colleges & Universities,38.63747969,-90.26217386,10/22/2018
+B,St Louis Community College,5600 Oakland Ave,Saint Louis,63110,MO,Colleges & Universities,38.6287018,-90.27941461,10/22/2018
+B,Saint Louis Zoo,1 Government Dr,Saint Louis,63110,MO,Child Care & Day Care,38.63649774,-90.29242868,10/22/2018
+B,QuikTrip,904 S Vandeventer Ave,Saint Louis Downtown,63110,MO,Gas Stations/Convenience Stores,38.6283907,-90.24617418,10/22/2018
+B,Kingshighway & Manchester Amoco,1187 S Kingshighway Blvd,Saint Louis,63110,MO,Gas Stations/Convenience Stores,38.62611,-90.2653799,10/22/2018
+B,City Greens Market,4260 Manchester Ave,Saint Louis,63110,MO,Grocery,38.626789,-90.256337,10/22/2018
+B,DiGregorio's Market,5200 Daggett Ave,Saint Louis,63110,MO,Grocery,38.61661,-90.27291,10/22/2018
+B,Shaw Market,4200 Shaw Ave,Saint Louis,63110,MO,Grocery,38.6181,-90.2739299,10/22/2018
+B,Volpi Foods,5256 Daggett Ave,Saint Louis,63110,MO,Grocery,38.616679,-90.27466,10/22/2018
+B,SSM Health Saint Louis University Hospital,3635 Vista Ave,Saint Louis,63110,MO,Hospitals/Urgent Care,38.622918,-90.238776,10/22/2018
+B,St Louis Children's Hospital,1 Childrens Pl,Saint Louis,63110,MO,Hospitals/Urgent Care,38.6377499,-90.26491,10/22/2018
+B,The Rehabilitation Institute of St. Louis,4455 Duncan Ave,Saint Louis,63110,MO,Hospitals/Urgent Care,38.6367755,-90.2579346,10/22/2018
+B,Barnes-Jewish Hospital Breast Health Center,4921 Parkview Pl,St. Louis,63110,MO,Hospitals/Urgent Care,38.63818032,-90.26321086,10/22/2018
+B,Siteman Cancer Center,4921 Parkview Pl,St. Louis,63110,MO,Hospitals/Urgent Care,38.6382621,-90.2631786,10/22/2018
+B,Home2 Suites by Hilton St. Louis/ Forest Park,920 S Taylor Ave,Saint Louis,63110,MO,Hotels,38.631178,-90.260228,10/22/2018
+B,Hampton Inn & Suites St. Louis at Forest Park,5650 Oakland Ave,Saint Louis,63110,MO,Hotels,38.629815,-90.281295,10/22/2018
+B,Walgreens,4925 Southwest Ave,Saint Louis,63110,MO,Pharmacy,38.61285,-90.26878,10/22/2018
+B,Anthonino's Taverna,2225 Macklind Ave,Saint Louis,63110,MO,Restaurant,38.61439,-90.2779599,10/22/2018
+B,Adriana's,5101 Shaw Ave,Saint Louis,63110,MO,Restaurant,38.617961,-90.270662,10/22/2018
+B,Starbucks,3635 Vista Ave,Saint Louis,63110,MO,Coffee & Tea,38.6230316,-90.2393265,10/22/2018
+B,Subway,1151 S Kingshighway Blvd,Saint Louis,63110,MO,Fast Food,38.62704,-90.26522,10/22/2018
+B,Southern Commercial Bank,5515 S Grand Blvd,Saint Louis,63111,MO,Banks & Credit Unions,38.56949,-90.25406,10/22/2018
+B,Burger King,932 Loughborough Ave,Saint Louis,63111,MO,Fast Food,38.556979,-90.261185,10/22/2018
+B,Carondelet Park Rec Complex,930 Holly Hills,St. Louis,63111,MO,Child Care & Day Care,38.5607134,-90.2565509,10/22/2018
+B,Bates Amoco,504 Bates St,Saint Louis,63111,MO,Gas Stations/Convenience Stores,38.56418,-90.24668,10/22/2018
+B,Circle K,8200 S Broadway,Saint Louis,63111,MO,Gas Stations/Convenience Stores,38.54263,-90.26286,10/22/2018
+B,Universal Food Market,4330 S Broadway,Saint Louis,63111,MO,Grocery,38.5766411,-90.2318192,10/22/2018
+B,Schnucks Loughborough Pharmacy,1020 Loughborough Ave,Saint Louis,63111,MO,Pharmacy,38.55644,-90.26254,10/22/2018
+B,Stacked STL,7637 Ivory Ave,Saint Louis,63111,MO,Restaurant,38.5491133,-90.2622763,10/22/2018
+B,Schnucks - Loughborough,1020 Loughborough,Saint Louis,63111,MO,Grocery,38.5578594,-90.2614073,10/22/2018
+B,Starbucks,1042 Loughborough Ave,Saint Louis,63111,MO,Coffee & Tea,38.55772,-90.26219,10/22/2018
+B,Subway,4230 S Broadway,Saint Louis,63111,MO,Fast Food,38.5780978,-90.2308312,10/22/2018
+B,Washington University in St. Louis North Campus,700 Rosedale Ave,Saint Louis,63112,MO,Colleges & Universities,38.65851345,-90.29813591,10/22/2018
+B,Olive You Nanny,,Saint Louis,63112,MO,Child Care & Day Care,38.65488434,-90.28244019,10/22/2018
+B,Monsanto Family YMCA,5555 Page Blvd,St. Louis,63112,MO,Child Care & Day Care,38.664405,-90.276832,10/22/2018
+B,Moonrise Hotel,6177 Delmar In The Lp,Saint Louis,63112,MO,Hotels,38.6556869,-90.2987689,10/22/2018
+B,Subway,307 Debaliviere Ave,Saint Louis,63112,MO,Fast Food,38.64929,-90.28551,10/22/2018
+B,Advance Loans,1408 N Kingshighway Blvd,Saint Louis,63113,MO,Title Loans,38.66159,-90.26095,10/22/2018
+B,Save-A Lot,3645 Page Blvd,Saint Louis,63113,MO,Grocery,38.64711,-90.2282,10/22/2018
+B,Burger King,5030 Natural Bridge Ave,Saint Louis,63115,MO,Fast Food,38.67649,-90.25325,10/22/2018
+B,McDonald's,4979 Natural Bridge Rd,St. Louis,63115,MO,Fast Food,38.67621634,-90.25068932,10/22/2018
+B,Imran Pharmacy,3737 N Kingshighway Blvd,Saint Louis,63115,MO,Pharmacy,38.67743,-90.25185,10/22/2018
+B,Subway,4963 Natural Bridge Ave,Saint Louis,63115,MO,Fast Food,38.67616653,-90.25022888,10/22/2018
+B,Taco Bell,5031 Natural Bridge,Saint Louis,63115,MO,Fast Food,38.676636,-90.252526,10/22/2018
+B,St. Louis Community Credit Union,4435 Chippewa St,Saint Louis,63116,MO,Banks & Credit Unions,38.59128,-90.2681,10/22/2018
+B,Charley's Angels Learning & Development Center,3196 Morganford Rd,Saint Louis,63116,MO,Child Care & Day Care,38.60097751,-90.26162133,10/22/2018
+B,Burlington Coat Factory,4930 Christy Blvd,Saint Louis,63116,MO,Department Stores,38.5845024,-90.2764454,10/22/2018
+B,Big Lots - Saint Louis: Bevo,4930 Christy Blvd,Saint Louis,63116,MO,Department Stores,38.5845024,-90.2764454,10/22/2018
+B,Local Harvest Grocery,3108 Morgan Ford Rd,Saint Louis,63116,MO,Grocery,38.604148,-90.261073,10/22/2018
+B,Gustine Market,3150 Gustine Ave,Saint Louis,63116,MO,Grocery,38.60199738,-90.24953461,10/22/2018
+B,Aldi,3721 S Grand Ave,Saint Louis,63116,MO,Grocery,38.58935145,-90.2443667,10/22/2018
+B,Aldi,6601 Gravois,Saint Louis,63116,MO,Grocery,38.57284546,-90.28283691,10/22/2018
+B,McDonald's,7241 Gravois Ave,St. Louis,63116,MO,Fast Food,38.56566452,-90.29255792,10/22/2018
+B,Advance Credit,3729 Gravois Ave,Saint Louis,63116,MO,Title Loans,38.5918285,-90.2476706,10/22/2018
+B,CVS/pharmacy,7320 Gravois Ave,Saint Louis,63116,MO,Pharmacy,38.56422043,-90.29335785,10/22/2018
+B,Walgreens,3631 Gravois Ave,Saint Louis,63116,MO,Pharmacy,38.59216176,-90.24509557,10/22/2018
+B,CVS Pharmacy,4100 Gravois Ave,Saint Louis,63116,MO,Pharmacy,38.5890274,-90.2555542,10/22/2018
+B,Alphateria,4312 Fyler Ave,St. Louis,63116,MO,Restaurant,38.59838,-90.26259,10/22/2018
+B,Save-A-Lot Limited,4324 Loughborough Ave,Saint Louis,63116,MO,Grocery,38.56612,-90.27844,10/22/2018
+B,Steak 'n Shake,4640 Chippewa St,Saint Louis,63116,MO,Restaurant,38.5910305,-90.27160379,10/22/2018
+B,Steak 'n Shake,7350 Gravois,Saint Louis,63116,MO,Restaurant,38.563792,-90.2943032,10/22/2018
+B,Subway,4600 Chippewa St,Saint Louis,63116,MO,Fast Food,38.590385,-90.270668,10/22/2018
+B,Bank of America,2604 S Jefferson Ave,Saint Louis,63118,MO,Banks & Credit Unions,38.60477,-90.2226,10/22/2018
+B,Commerce Bank,3134 S Grand Blvd,Saint Louis,63118,MO,Banks & Credit Unions,38.6015498,-90.2419985,10/22/2018
+B,U.S. Bank,3430 S Grand Blvd,St Louis,63118,MO,Banks & Credit Unions,38.5946693,-90.2425308,10/22/2018
+B,Joel's Shell Food Mart,1815 Arsenal St,Saint Louis,63118,MO,Gas Stations/Convenience Stores,38.59723,-90.21721,10/22/2018
+B,Jefferson B P Gas Station,3258 S Jefferson Ave,Saint Louis,63118,MO,Gas Stations/Convenience Stores,38.59519986,-90.22472151,10/22/2018
+B,Ruler Foods,2700 S Grand Blvd,Saint Louis,63118,MO,Grocery,38.60709211,-90.24049381,10/22/2018
+B,Jay International Food Co,3172 S Grand Blvd,Saint Louis,63118,MO,Grocery,38.60025,-90.24227,10/22/2018
+B,El Capral Mexican Grocery,2817 Cherokee St,Saint Louis,63118,MO,Grocery,38.59417,-90.2306399,10/22/2018
+B,St. Alexius Hospital,3933 S Broadway,St. Louis,63118,MO,Hospitals/Urgent Care,38.5834869,-90.227666,10/22/2018
+B,Total Access Urgent Care,3114 S Grand Blvd,Saint Louis,63118,MO,Hospitals/Urgent Care,38.6020727,-90.242189,10/22/2018
+B,AC Pawn Shop,2850 Chippewa St,Saint Louis,63118,MO,Pawn Shops,38.5868463,-90.2334131,10/22/2018
+B,The Medicine Shoppe Pharmacy,3137 S Grand Blvd,Saint Louis,63118,MO,Pharmacy,38.6016,-90.24275,10/22/2018
+B,The Shaved Duck,2900 Virginia Ave,Saint Louis,63118,MO,Restaurant,38.603635,-90.235876,10/22/2018
+B,Save-A-Lot Limited,3427 S Jefferson Ave,Saint Louis,63118,MO,Grocery,38.59239,-90.22608,10/22/2018
+B,Schnucks South City,3430 S Grand,Saint Louis,63118,MO,Grocery,38.594674,-90.24253,10/22/2018
+B,Subway,3628 S Grand Blvd,Saint Louis,63118,MO,Fast Food,38.5911312,-90.2438429,10/22/2018
+B,Taco Bell,3501 S Grand Ave,Saint Louis,63118,MO,Fast Food,38.593772,-90.243397,10/22/2018
+B,U.S. Bank,5375 Southwest Ave,Saint Louis,63139,MO,Banks & Credit Unions,38.610893,-90.277999,10/22/2018
+B,Burger King,3259 Hampton Ave,Saint Louis,63139,MO,Fast Food,38.60308,-90.29223,10/22/2018
+B,Broadcast Center,2360 Hampton Ave,Saint Louis,63139,MO,Colleges & Universities,38.613182,-90.286811,10/22/2018
+B,Discovery Children's Center,1211 Tamm Ave,Saint Louis,63139,MO,Child Care & Day Care,38.62803,-90.29329,10/22/2018
+B,Kingshighway Hills Preschool Plus,5001 Pernod Ave,Saint Louis,63139,MO,Child Care & Day Care,38.59504768,-90.27603753,10/22/2018
+B,Creative Nursery and Preschool,6500 Arsenal St,Saint Louis,63139,MO,Child Care & Day Care,38.60789,-90.29948,10/22/2018
+B,South City Family YMCA,3150 Sublette Ave,St. Louis,63139,MO,Child Care & Day Care,38.603529,-90.28073,10/22/2018
+B,Hampton KinderCare,2500 Hampton Ave,St. Louis,63139,MO,Child Care & Day Care,38.61294,-90.28688,10/22/2018
+B,Dollar General Stores,6574 Manchester Ave,Saint Louis,63139,MO,Department Stores,38.6193913,-90.2995227,10/22/2018
+B,U Gas,3225 Hampton Ave,Saint Louis,63139,MO,Gas Stations/Convenience Stores,38.60387,-90.292,10/22/2018
+B,QuikTrip,3291 S Kingshighway Blvd,St Louis Downtown,63139,MO,Gas Stations/Convenience Stores,38.6004971,-90.2705598,10/22/2018
+B,BP,1104 Hampton Ave,Saint Louis,63139,MO,Gas Stations/Convenience Stores,38.62914,-90.28684,10/22/2018
+B,Gas Mart,3282 Jamieson Ave,Saint Louis,63139,MO,Gas Stations/Convenience Stores,38.60389,-90.3072,10/22/2018
+B,Circle K,1514 Hampton Ave,Saint Louis,63139,MO,Gas Stations/Convenience Stores,38.62368,-90.28743,10/22/2018
+B,Southampton Healthcare,2340 Hampton Ave,Saint Louis,63139,MO,Hospitals/Urgent Care,38.61386,-90.28671,10/22/2018
+B,Total Access Urgent Care,2060 Hampton Ave,St. Louis,63139,MO,Hospitals/Urgent Care,38.61786,-90.287086,10/22/2018
+B,Drury Inn & Suites St. Louis Forest Park,2111 Sulphur Ave,Saint Louis,63139,MO,Hotels,38.61736,-90.28859,10/22/2018
+B,McDonald's,4200 Hampton Ave,St. Louis,63139,MO,Fast Food,38.593007,-90.293782,10/22/2018
+B,McDonald's,1420 Hampton Ave,Saint Louis,63139,MO,Fast Food,38.624459,-90.287467,10/22/2018
+B,Arrow Finance Company,3528 Hampton Ave,Saint Louis,63139,MO,Check Cashing/Pay-day Loans,38.59769,-90.29229,10/22/2018
+B,Walgreens,2340 Hampton Ave,Saint Louis,63139,MO,Pharmacy,38.61386,-90.28671,10/22/2018
+B,Walgreens,2933 S Kingshighway Blvd,Saint Louis,63139,MO,Pharmacy,38.60528578,-90.26958558,10/22/2018
+B,On The Hill Health Mart Pharmacy,5378 Southwest Ave,St. Louis,63139,MO,Pharmacy,38.610509,-90.278252,10/22/2018
+B,Schnucks Arsenal Pharmacy - Saint Louis,5055 Arsenal St,Saint Louis,63139,MO,Pharmacy,38.6068029,-90.273927,10/22/2018
+B,Farmhaus Restaurant,3257 Ivanhoe Ave,Saint Louis,63139,MO,Restaurant,38.60415,-90.30427,10/22/2018
+B,Save A-Lot Southwest,5437 Southwest Ave,Saint Louis,63139,MO,Grocery,38.6101116,-90.2798264,10/22/2018
+B,Schnucks - Arsenal,5055 Arsenal St,Saint Louis,63139,MO,Grocery,38.6064,-90.27402,10/22/2018
+B,Steak 'n Shake,1253 Hampton Ave,Saint Louis,63139,MO,Restaurant,38.6272167,-90.2878138,10/22/2018
+B,Subway,1205 Hampton Ave,Saint Louis,63139,MO,Fast Food,38.62822,-90.2876299,10/22/2018
+B,Taco Bell,6660 Manchester Road,Saint Louis,63139,MO,Fast Food,38.619283,-90.299832,10/22/2018
+B,Taco Bell,1324 Hampton Avenue,Saint Louis,63139,MO,Fast Food,38.626532,-90.287483,10/22/2018
+B,Taco Bell,3440 So Kings Highway,Saint Louis,63139,MO,Fast Food,38.596478,-90.270728,10/22/2018
+B,Subway,711 Pope Ave,Saint Louis,63147,MO,Fast Food,38.685432,-90.216911,10/22/2018
+E,ST LOUIS CATHOLIC ACADEMY,4720 CARTER AVE,St. Louis,63115,MO,Private,38.68079,-90.23891,10/25/2018
+E,ST LOUIS THE KING SCHOOL AT THE CATHEDRAL,4430 MARYLAND AVE,St. Louis,63108,MO,Private,38.64288,-90.2547,10/25/2018
+E,MOST HOLY TRINITY CATHOLIC SCHOOL AND ACADEMY,1435 MALLINCKRODT ST,St. Louis,63107,MO,Private,38.66043,-90.19958,10/25/2018
+E,ST JAMES THE GREATER SCHOOL,1360 TAMM AVE,St. Louis,63139,MO,Private,38.6253,-90.29298,10/25/2018
+E,HAWTHORN MIDDLE,1901 N KINGSHIGHWAY BLVD,St. Louis,63113,MO,Charter,38.66602,-90.25999,10/25/2018
+E,WORD OF LIFE LUTHERAN SCHOOL,6535 EICHELBERGER ST,St. Louis,63109,MO,Private,38.58297,-90.30535,10/25/2018
+E,COMMUNITY ACCESS JOB TRAINING,4915 DONOVAN AVE,St. Louis,63109,MO,Public,38.58756,-90.30499,10/25/2018
+E,EAGLE FOX PARK,2617 SHENANDOAH AVE.,St. Louis,63104,MO,Charter,38.60795,-90.2233,10/25/2018
+E,CLAY ELEM.,3820 N 14TH ST,St. Louis,63107,MO,Public,38.66319,-90.19921,10/25/2018
+E,COLUMBIA ELEM. COMM. ED. CTR.,3120 ST LOUIS AVE,St. Louis,63106,MO,Public,38.65329,-90.21873,10/25/2018
+E,PRECLARUS MASTERY ACADEMY,620 North Grand Blvd.,St. Louis,63103,MO,Charter,38.63921,-90.23092,10/25/2018
+E,FARRAGUT ELEM.,4025 SULLIVAN AVE,St. Louis,63107,MO,Public,38.66259,-90.22762,10/25/2018
+E,LAFAYETTE PREPARATORY ACADEMY,1900 Lafayette Avenue,St. Louis,63104,MO,Charter,38.61348,-90.21373,10/25/2018
+E,COLLEGIATE SCHOOL OF MED/BIO,1547 S. THERESA AV,St. Louis,63104,MO,Public,38.61946701,-90.23652061,10/25/2018
+E,ST RAPHAEL THE ARCHANGEL SCHOOL,6000 JAMIESON AVE,St. Louis,63109,MO,Private,38.57726,-90.30318,10/25/2018
+E,ST JOAN OF ARC CATHOLIC SCHOOL,5821 PERNOD AVE,St. Louis,63139,MO,Private,38.59684,-90.29163,10/25/2018
+E,ST ROCH SCHOOL,6040 WATERMAN BLVD,St. Louis,63112,MO,Private,38.65015,-90.29574,10/25/2018
+E,HICKEY ELEM.,3111 CORA AVE,St. Louis,63115,MO,Public,38.66938,-90.24553,10/25/2018
+E,EAGLE TOWER GROVE SOUTH,3716 MORGANFORD RD.,St. Louis,63116,MO,Charter,38.59122,-90.26335,10/25/2018
+E,BRYAN HILL ELEM.,4342 ALDINE,St. Louis,63113,MO,Public,38.6569,-90.2442,10/25/2018
+E,ST CECILIA SCHOOL,906 EICHELBERGER ST,St. Louis,63111,MO,Private,38.56874,-90.2504,10/25/2018
+E,St. Louis College Prep Middle,1224 Grattan,St. Louis,63104,MO,Charter,38.61711,-90.20833,10/25/2018
+E,ST FRANCES CABRINI ACADEMY,3022 OREGON AVE,St. Louis,63118,MO,Private,38.60115,-90.22933,10/25/2018
+E,NAHED CHAPMAN NEW AMERICAN ACA,1530 SOUTH GRAND,St. Louis,63104,MO,Public,38.61987,-90.23805,10/25/2018
+E,DUNBAR AND BR.,1415 N GARRISON AVE,St. Louis,63106,MO,Public,38.64527,-90.22079,10/25/2018
+E,OUR LADY OF SORROWS SCHOOL,5831 S KINGSHIGHWAY BLVD,St. Louis,63109,MO,Private,38.57757515,-90.28273772,10/25/2018
+E,ST AMBROSE SCHOOL,5110 WILSON AVE,St. Louis,63110,MO,Private,38.6153,-90.27198,10/25/2018
+E,KIPP WISDOM ACADEMY,2647 Ohio Ave,St. Louis,63118,MO,Charter,38.60436,-90.22609,10/25/2018
+E,LONG MIDDLE COMMUNITY ED. CTR.,5028 MORGANFORD RD,St. Louis,63116,MO,Public,38.57993,-90.26665,10/25/2018
+E,ACAD OF ENVT SCI/MATH MIDDLE,3021 HICKEY ST,St. Louis,63104,MO,Public,38.6228,-90.22754,10/25/2018
+E,SHENANDOAH ELEM.,3412 SHENANDOAH AVE,St. Louis,63104,MO,Public,38.60907,-90.23683,10/25/2018
+E,TOWER GROVE CHRISTIAN ACADEMY,4257 MAGNOLIA AVE,St. Louis,63110,MO,Private,38.60925,-90.2566,10/25/2018
+E,CITY GARDEN MONTESSORI SCHOOL,1618 TOWER GROVE AVE,St. Louis,63110,MO,Charter,38.62007,-90.25516,10/25/2018
+E,CROSSROADS COLLEGE PREPARATORY SCHOOL,500 DE BALIVIERE AVE,St. Louis,63112,MO,Private,38.65293,-90.28399,10/25/2018
+E,MERAMEC ELEM.,2745 MERAMEC ST,St. Louis,63118,MO,Public,38.57973,-90.23235,10/25/2018
+E,ST STEPHEN PROTOMARTYR SCHOOL,3929 WILMINGTON AVE,St. Louis,63116,MO,Private,38.56964,-90.26286,10/25/2018
+E,LACLEDE ELEM.,5821 KENNERLY AVE,St. Louis,63112,MO,Public,38.67744,-90.27666,10/25/2018
+E,GATEWAY SCIENCE ACADEMY MIDDLE,5049 FYLER AVENUE,St. Louis,63139,MO,Charter,38.6009,-90.27636,10/25/2018
+E,HENRY ELEM.,1220 N TENTH ST,St. Louis,63106,MO,Public,38.637285,-90.191399,10/25/2018
+E,PEABODY ELEM.,1224 S 14TH ST,St. Louis,63104,MO,Public,38.61679,-90.2048,10/25/2018
+E,WILKINSON EARLY CHILDHOOD CTR.,1921 PRATHER AVE,St. Louis,63139,MO,Public,38.62187,-90.30475,10/25/2018
+E,GATEWAY SCIENCE ACADEMY HIGH,5049 FYLER AVENUE,St. Louis,63139,MO,Charter,38.6009,-90.27636,10/25/2018
+E,LIFT FOR LIFE ACADEMY,1731 S BROADWAY,St. Louis,63104,MO,Charter,38.60836,-90.20077,10/25/2018
+E,JEFFERSON ELEM.,1301 HOGAN ST,St. Louis,63106,MO,Public,38.64129,-90.20325,10/25/2018
+E,HUMBOLDT ACAD OF HIGHER LRNING,2516 S. 9th St.,St. Louis,63104,MO,Public,38.60143,-90.20763,10/25/2018
+E,HODGEN ELEM.,1616 CALIFORNIA,St. Louis,63104,MO,Public,38.61676425,-90.22521228,10/25/2018
+E,SIGEL ELEM. COMM. ED. CTR.,2050 ALLEN AVE,St. Louis,63104,MO,Public,38.61045,-90.21606,10/25/2018
+E,FORD-FORD BR. ELEM. COMM. ED.,1383 CLARA AVE,St. Louis,63112,MO,Public,38.66719,-90.27869,10/25/2018
+E,NEW CITY SCHOOL,5209 WATERMAN BLVD,St. Louis,63108,MO,Private,38.64948,-90.27064,10/25/2018
+E,CLEVELAND NJROTC ACADEMY,3125 S Kingshighway,St. Louis,63139,MO,Public,38.60452,-90.27114,10/25/2018
+E,ROSATI-KAIN HIGH SCHOOL,4389 LINDELL BLVD,St. Louis,63108,MO,Private,38.64197,-90.25341,10/25/2018
+E,ACAD OF ENVT SCI/MATH ELEM,3325 Bell,St. Louis,63106,MO,Public,38.64197,-90.22577,10/25/2018
+E,FROEBEL ELEM.,3709 NEBRASKA AVE,St. Louis,63118,MO,Public,38.5881,-90.23389,10/25/2018
+E,MANN ELEM.,4047 JUNIATA ST,St. Louis,63116,MO,Public,38.60219,-90.25461,10/25/2018
+E,MALLINCKRODT A.B.I. ELEM.,6020 PERNOD AVE,St. Louis,63139,MO,Public,38.596,-90.29379,10/25/2018
+E,OAK HILL ELEM.,4300 MORGANFORD RD,St. Louis,63116,MO,Public,38.58879,-90.26392,10/25/2018
+E,ADAMS ELEM.,1311 TOWER GROVE AVE,St. Louis,63110,MO,Public,38.62471,-90.25654,10/25/2018
+E,EARL NANCE SR. ELEM.,8959 RIVERVIEW BLVD,St. Louis,63147,MO,Public,38.72079023,-90.24063181,10/25/2018
+E,WOODWARD ELEM.,725 BELLERIVE BLVD,St. Louis,63111,MO,Public,38.5657,-90.24995,10/25/2018
+E,GRAND CENTER ARTS ACAD MIDDLE,711 N. GRAND,St. Louis,63103,MO,Charter,38.64063,-90.23087,10/25/2018
+E,KIPP VICTORY ACADEMY,955 ARCADE AVENUE,St. Louis,63118,MO,Charter,38.65995,-90.2806,10/25/2018
+E,HAMILTON ELEM. COMMUNITY ED.,4160 N KINGSHIGHWAY,St. Louis,63115,MO,Public,38.68084,-90.24738,10/25/2018
+E,ASHLAND ELEM. AND BR.,3921 N NEWSTEAD,St. Louis,63115,MO,Public,38.67168,-90.23582,10/25/2018
+E,METRO HIGH,4015 MCPHERSON AVE,St. Louis,63108,MO,Public,38.64073,-90.24312,10/25/2018
+E,HERZOG ELEM.,5831 PAMPLIN PL,St. Louis,63147,MO,Public,38.71103,-90.25191,10/25/2018
+E,LIFT FOR LIFE ACADEMY HIGH SCH,1731 S BROADWAY,St. Louis,63104,MO,Charter,38.60836,-90.20077,10/25/2018
+E,ST MARY'S HIGH SCHOOL,4701 S GRAND BLVD,St. Louis,63111,MO,Private,38.57521,-90.25139,10/25/2018
+E,KIPP INSPIRE ACADEMY,1212 N 22nd St,St. Louis,63106,MO,Charter,38.64047,-90.20792,10/25/2018
+E,BUSCH MS CHARACTER ATHLETICS,5910 CLIFTON AVE,St. Louis,63109,MO,Public,38.57783,-90.29653,10/25/2018
+E,KENNARD/CLASSICAL JR. ACAD.,5031 POTOMAC,St. Louis,63139,MO,Public,38.59811,-90.27653,10/25/2018
+E,YEATMAN-LIDDELL MIDDLE SCHOOL,4265 ATHLONE AVE,St. Louis,63115,MO,Public,38.67441653,-90.22853178,10/25/2018
+E,MONROE ELEM.,3641 MISSOURI AVE,St. Louis,63118,MO,Public,38.58811,-90.22486,10/25/2018
+E,SUMNER HIGH,4248 COTTAGE AVE,St. Louis,63113,MO,Public,38.65984598,-90.23862362,10/25/2018
+E,FANNING MIDDLE COMMUNITY ED.,3417 GRACE AVE,St. Louis,63116,MO,Public,38.59567,-90.24527,10/25/2018
+E,GATEWAY SCIENCE ACAD-SOUTH ELE,6651 GRAVOIS AVE.,St. Louis,63116,MO,Charter,38.57232,-90.28348,10/25/2018
+E,LEXINGTON ELEM.,5030 LEXINGTON AVE,St. Louis,63115,MO,Public,38.67469,-90.25448,10/25/2018
+E,CARNAHAN SCH. OF THE FUTURE,4041 S BROADWAY,St. Louis,63118,MO,Public,38.58161,-90.2291,10/25/2018
+E,NORTH SIDE COMMUNITY SCHOOL,3033 N EUCLID STREET,St. Louis,63115,MO,Charter,38.67215,-90.25226,10/25/2018
+E,SHAW VISUAL/PERF. ARTS CTR.,5329 COLUMBIA AVE,St. Louis,63139,MO,Public,38.61179,-90.277,10/25/2018
+E,COLE ELEM.,3935 ENRIGHT AVE,St. Louis,63108,MO,Public,38.64518,-90.23806,10/25/2018
+E,LYON AT BLOW ELEM.,516 LOUGHBOROUGH AVE,St. Louis,63111,MO,Public,38.55463,-90.25716,10/25/2018
+E,ST LOUIS LANG IMMERSION SCHOOL,4011 PAPIN ST,St. Louis,63110,MO,Charter,38.62955,-90.24839,10/25/2018
+E,AMES VISUAL/PERF. ARTS,2900 HADLEY,St. Louis,63107,MO,Public,38.65286213,-90.19557152,10/25/2018
+E,WOERNER ELEM.,6131 LEONA ST,St. Louis,63116,MO,Public,38.56961,-90.26906,10/25/2018
+E,WASHINGTON MONTESSORI,1130 N EUCLID AVE,St. Louis,63113,MO,Public,38.65672,-90.25919,10/25/2018
+E,CENTRAL VISUAL/PERF. ARTS HIGH,3125 S KINGSHIGHWAY BLVD,St. Louis,63139,MO,Public,38.60452,-90.27114,10/25/2018
+E,BUDER ELEM.,5319 LANSDOWNE AVE,St. Louis,63109,MO,Public,38.58886,-90.28315,10/25/2018
+E,GRAND CENTER ARTS ACADEMY HIGH,711 NORTH GRAND AVENUE,St. Louis,63103,MO,Charter,38.64063,-90.23087,10/25/2018
+E,MULLANPHY BOTANICAL GARDENS,4221 SHAW BLVD,St. Louis,63110,MO,Public,38.61706,-90.2546,10/25/2018
+E,CARONDELET LEADERSHIP ACADEMY,7604 Michigan Avenue,St. Louis,63111,MO,Charter,38.54865603,-90.26147602,10/25/2018
+E,GATEWAY SCIENCE ACAD/ST LOUIS,6576 Smiley Avenue,St. Louis,63139,MO,Charter,38.60664,-90.30247,10/25/2018
+E,DEWEY SCH.-INTERNAT'L. STUDIES,815 ANN AVE,St. Louis,63104,MO,Public,38.60566,-90.20505,10/25/2018
+E,BEAUMONT CTE HIGH SCHOOL,3836 NATURAL BRIDGE AVE,St. Louis,63107,MO,Public,38.66273,-90.22163,10/25/2018
+E,MASON ELEM.,6031 SOUTHWEST AVE,St. Louis,63139,MO,Public,38.61087,-90.29001,10/25/2018
+E,COMPTON-DREW ILC MIDDLE,5130 OAKLAND AVE,St. Louis,63110,MO,Public,38.62940935,-90.27164447,10/25/2018
+E,ST GABRIEL THE ARCHANGEL SCHOOL,4711 TAMM AVE,St. Louis,63109,MO,Private,38.58779,-90.29925,10/25/2018
+E,STIX EARLY CHILDHOOD CTR.,647 TOWER GROVE AVE,St. Louis,63110,MO,Public,38.63149662,-90.25461905,10/25/2018
+E,ROOSEVELT HIGH,3230 HARTFORD ST,St. Louis,63118,MO,Public,38.6010575,-90.23705242,10/25/2018
+E,MCKINLEY CLASS. LEADERSHIP AC.,2156 RUSSELL BLVD,St. Louis,63104,MO,Public,38.61002,-90.21906,10/25/2018
+E,GATEWAY ELEM.,4 GATEWAY DR,St. Louis,63106,MO,Public,38.64230587,-90.21249911,10/25/2018
+E,CARR LANE VPA MIDDLE,1004 N JEFFERSON AVE,St. Louis,63106,MO,Public,38.63921568,-90.21276597,10/25/2018
+E,GATEWAY MIDDLE,1200 N JEFFERSON AVE,St. Louis,63106,MO,Public,38.64143352,-90.21271984,10/25/2018
+E,SOLDAN INTERNATIONAL STUDIES,918 N UNION BLVD,St. Louis,63108,MO,Public,38.65517,-90.27223,10/25/2018
+E,VASHON HIGH,3035 CASS AVE,St. Louis,63106,MO,Public,38.64766,-90.22113,10/25/2018
+E,CONFLUENCE PREPARATORY ACADEMY,310 NORTH 15 STREET,St. Louis,63103,MO,Charter,38.63093,-90.20084,10/25/2018
+E,MILLER CAREER ACADEMY,1000 N GRAND,St. Louis,63106,MO,Public,38.64246607,-90.22921468,10/25/2018
+E,OLD NORTH,3017 NORTH 13TH STREET,St. Louis,63107,MO,Charter,38.65394,-90.19659,10/25/2018
+E,SOUTH CITY,3112 MERAMEC,St. Louis,63118,MO,Charter,38.57974,-90.23828,10/25/2018
+E,PREMIER CHARTER SCHOOL,5279 FYLER AVENUE,St. Louis,63139,MO,Charter,38.6007712,-90.27980118,10/25/2018
+E,ST LOUIS UNIVERSITY HIGH SCHOOL,4970 OAKLAND AVE,St. Louis,63110,MO,Private,38.62828,-90.26803,10/25/2018
+E,GATEWAY HIGH,5101 MCREE AVE,St. Louis,63110,MO,Public,38.62169,-90.26944,10/25/2018
+R,"3,750,000",505 Washington Ave ,St.louis ,63101,MO,Office,38.630001,-90.188229,10/24/2018
+R,"3,700,000",901 N 10th St ,St.louis ,63101,MO,Office,38.633941,-90.192844,10/24/2018
+R,"2,750,000",620 Market Street,St.louis ,63101,MO,Office,38.625914,-90.191942,10/24/2018
+R,"499,000",812 N Collins Street,St.louis ,63102,MO,Office,38.631224,-90.185566,10/24/2018
+R,"899,000",807-809 N 2nd St,St.louis ,63102,MO,StoreFront/Retail Office,38.631009,-90.18441,10/24/2018
+R,"325,000",1901 N Broadway ,St.louis ,63102,MO,Industrial,38.645542,-90.187,10/24/2018
+R,"799,000",724  N 1st St,St.louis ,63102,MO,Office,38.63014,-90.18328,10/24/2018
+R,"1,500,000",1915 N 9th St,St.louis ,63102,MO,Warehouse,38.645559,-90.188435,10/24/2018
+R,"2,990,000",2300 Clark Avenue,St.louis ,63103,MO,Warehouse,38.628309,-90.215008,10/24/2018
+R,"2,000,000",1300 Washington Avenue,St.louis ,63103,MO,StoreFront/Retail Office,38.632143,-90.198585,10/24/2018
+R,"2,000,000",1300 Washington Avenue,St.louis ,63103,MO,Apartments,38.632143,-90.198585,10/24/2018
+R,"1,500,000",1423 Locust St,St.louis ,63103,MO,Parking Lot,38.631454,-90.200954,10/24/2018
+R,"3,800,000",1409 Washington Avenue,St.louis ,63103,MO,Office,38.632455,-90.200095,10/24/2018
+R,"4,025,000",1314-1316 Washington Avenue,St.louis ,63103,MO,Office,38.632256,-90.199104,10/24/2018
+R,"6,500,000",1320 Washington Avenue,St.louis ,63103,MO,Apartments,38.632293,-90.199273,10/24/2018
+R,"16,000,000",1227 Washington Avenue,St.louis ,63103,MO,Apartments,38.631867,-90.197217,10/24/2018
+R,"5,150,000",1300 Convention Plaza,St.louis ,63103,MO,Apartments,38.633487,-90.197347,10/24/2018
+R,"5,600,000",1220 St Charles St,St.louis ,63103,MO,Parking Garage,38.631468,-90.198125,10/24/2018
+R,"8,350,000",500 N 13th St,St.louis ,63103,MO,Apartments,38.631604,-90.198456,10/24/2018
+R,"499,000",1824 Choteau St,St.louis ,63103,MO,Office,38.630287,-90.215039,10/24/2018
+R,"600,000",1501 Locust St,St.louis ,63103,MO,StoreFront/Retail Office/Residential,38.631573,-90.201535,10/24/2018
+R,"890,000",400 S 18th St,St.louis ,63103,MO,Office,38.625753,-90.206238,10/24/2018
+R,"895,000",1706 Olive St,St.louis ,63103,MO,Office,38.631161,-90.204659,10/24/2016
+R,"900,000",1531-1535 Olive Blvd,St.louis ,63103,MO,Commercial,38.630773,-90.202726,10/24/2018
+R,"679,000",3534 Washington Avenue,St.louis ,63103,MO,Commercial,38.638748,-90.230776,10/24/2018
+R,"680,000",2815 Locust St,St.louis ,63103,MO,Office,38.635145,-90.218745,10/24/2018
+R,"595,000",2028-2030 Delmar Blvd,St.louis ,63103,MO,Warehouse,38.635821,-90.20836,10/24/2018
+R,"635,000",730 N 18th Street,St.louis ,63103,MO,Warehouse,38.634127,-90.204528,10/24/2018
+R,"795,000",1608 Menard Street,St.louis ,63104,MO,Loft/Creative Space,38.612565,-90.203719,10/24/2018
+R,"429,000",2225 Gravois Ave,St.louis ,63104,MO,StoreFront/Retail/Office,38.606268,-90.220326,10/24/2018
+R,"2,200,000",1511-1525 S 8th St,St.louis ,63104,MO,Warehouse,38.612266,-90.199681,10/24/2018
+R,"1,750,000",1120 Montrose Avenue,St.louis ,63104,MO,Manufacturing,38.622812,-90.226754,10/24/2018
+R,"990,000",Fox Park South Portfolio,St.louis ,63104,MO,Residential,38.612378,-90.215345,10/24/2018
+R,"160,000",1812 Geyer Avenue,St.louis ,63104,MO,Residential,38.610436,-90.212902,10/24/2018
+R,"799,000",4747 McPherson Ave,St.louis ,63108,MO,Restaurant,38.648316,-90.260649,10/24/2018
+R,"2,800,000",3610 Olive St,St.louis ,63108,MO,Commercial,38.638897,-90.233941,10/24/2018
+R,"2,495,000",3674 Forest Park Ave,St.louis ,63108,MO,StoreFront/Retail/residential,38.633689,-90.237244,10/24/2018
+R,"375,000",3809-3817 S Kingshighway Blvd,St.louis ,63109,MO,StoreFront/Retail/residential,38.592066,-90.272873,10/24/2018
+R,"549,000",5200 S Kingshighway Blvd,St.louis ,63109,MO,Auto Repair,38.58224,-90.278167,10/24/2018
+R,"2,575,000",4500 Swan Ave,St.louis ,63110,MO,Warehouse,38.625332,-90.262333,10/24/2018
+R,"385,000",4125 Chouteau Ave,St.louis ,63110,MO,Apartments,38.628447,-90.251022,10/24/2018
+R,"395,000",925 S Sarah St,St.louis ,63110,MO,Apartments,38.628751,-90.249931,10/24/2018
+R,"595,000",1227 S Vandeventer Ave,St.louis ,63110,MO,Apartments,38.62692,-90.2505,10/24/2018
+R,"3,825,000",4925 Southwest Ave,St.louis ,63110,MO,Freestanding,38.61289,-90.26883,10/24/2018
+R,"450,000",4553 Swan Ave,St.louis ,63110,MO,Apartments,38.62529,-90.26398,10/24/2018
+R,"1,373,222",7700 S Broadway,St.louis ,63111,MO,Freestanding,38.54649,-90.25856,10/24/2018
+R,"365,000",5324 Virginia Ave,St.louis ,63111,MO,Freestanding,38.56626,-90.24505,10/24/2018
+R,"875,000",8701 S Broadway,St.louis ,63111,MO,Auto Dealership,38.53906,-90.26808,10/24/2018
+R,"695,000",6805 S Broadway,St.louis ,63111,MO,Office,38.55302,-90.25205,10/24/2018
+R,"575,000",5344 Delmar Place Ct,St.louis ,63112,MO,Residential,38.65317,-90.27696,10/24/2018
+R,"5,875,000",5622 Delmar Blvd,St.louis ,63112,MO,Apartments,38.65334,-90.28338,10/24/2018
+R,"350,000",8518 S Broadway,St.louis ,63112,MO,Bar,38.54042,-90.26548,10/24/2018
+R,"8,500",4019 N Taylor Ave,St.louis ,63115,MO,Residential,38.67444,-90.23835,10/24/2018
+R,"395,000",4870 Natural Bridge Ave,St.louis ,63115,MO,Auto Dealership,38.67439,-90.24806,10/24/2018
+R,"135,000",4217 Meramec St,St.louis ,63116,MO,Industrial,38.5904,-90.26154,10/24/2018
+R,"249,000",3805 Meramec St,St.louis ,63116,MO,StoreFront/Retail Office,38.58316,-90.24813,10/24/2018
+R,"279,000",5801 Gravois St,St.louis ,63116,MO,StoreFront/Retail Office,38.57745,-90.27461,10/24/2018
+R,"249,000",3235 S 7th St,St.louis ,63118,MO,StoreFront/Retail Office,38.59377,-90.21348,10/24/2018
+R,"500,000",1976 Arsenal St,St.louis ,63118,MO,Multi Family,38.60427,-90.25736,10/24/2018
+R,"375,000",3869 S Grand Blvd,St.louis ,63118,MO,Fast Food,38.59296,-90.24375,10/24/2018
+R,"2,000,000",3740 Marine Ave,St.louis ,63118,MO,Schools,38.58589,-90.22049,10/24/2018
+R,"2,349,089",3846 S Grand Blvd,St.louis ,63118,MO,Freestanding,38.59296,-90.24375,10/24/2018
+R,"1,345,000",3654 S Grand Blvd,St.louis ,63118,MO,Office,38.59045,-90.24364,10/24/2018
+R,"3,810,000",2933 S Kingshighway Blvd,St.louis ,63139,MO,Drug Store,38.60542,-90.26994,10/24/2018
+R,"775,000",6101 Arsenal St,St.louis ,63139,MO,Restaurant,38.60764,-90.29283,10/24/2018
+R,"875,000",2165 Hampton Ave,St.louis ,63139,MO,Office,38.61603,-90.28775,10/24/2018
+R,"1,750,000",3185 S Kingshighway Blvd,St.louis ,63139,MO,Manufacturing,38.67361,-90.25423,10/24/2018
+R,"675,000",3108 S Kingshighway St,St.louis ,63139,MO,StoreFront/Retail Office,38.60475,-90.26903,10/24/2018
+R,"250,000",8400 N Broadway,St.louis ,63147,MO,Religious Facility,38.71523,-90.22964,10/24/2018
+R,"1,250,000",1-2 Luther Ave,St.louis ,63147,MO,Commercial,38.6675,-90.18884,10/24/2018
+R,"195,000",3145 N 9th St,St.louis ,63147,MO,Warehouse,38.65647,-90.19439,10/24/2018
+R,"109,000",8635 N Broadway,St.louis ,63147,MO,Retail,38.72006,-90.22919,10/24/2018
+R,"2,550,000",8430 Hall St,St.louis ,63147,MO,Warehouse,38.71766,-90.22609,10/24/2018
