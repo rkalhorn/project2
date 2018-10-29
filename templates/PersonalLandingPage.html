@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Landing Page (Project 2)</title>
+		<title>Personal Landing Page (Project 2)</title>
 		<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -38,94 +38,98 @@
 						</head>
 						<!-- Page Title-->
 						<body background="../static/img/bgtrans.PNG">
-							<!-- <nav class="navbar navbar-inverse">
-								<div class="container-fluid">
-									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										</button>
-										<a class="navbar-brand" href="#">Portfolio</a>
-									</div>
-									<div class="collapse navbar-collapse" id="myNavbar">
-										<ul class="nav navbar-nav">
-											<li class="active">
-												<a href="#">Home</a>
-											</li>
-											<li>
-												<a href="#">About</a>
-											</li>
-											<li>
-												<a href="#">Gallery</a>
-											</li>
-											<li>
-												<a href="#">Contact</a>
-											</li>
-										</ul>
-										<ul class="nav navbar-nav navbar-right">
-											<li>
-												<a href="#">
-													<span class="glyphicon glyphicon-log-in"></span> Login
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</nav> -->
-							<div class = "container-fluid" >
-								<br>
-									<div class="header" text-align:center>
-										<img class="img-responsive" src="../static/img/arch.png" alt="arch4" width="700" height="350"/>
-										<h1>Invest St. Louis </h1>
-										<h4>
-											<i class="far fa-hand-point-down"></i>  Please select how you would like to invest
-											<i class="far fa-hand-point-down"></i>
-										</h4>
-									</div>
-								</div>
-								<div class="">
-									<div class="col-sm-3 text-left"></div>
-									<div class="col-sm-3 text-left">
-										<a href="PersonalLandingPage.html" class="btn btn-primary btn-lg btn-block btn-huge">
-											<i class="fas fa-user fa-2x"></i>
-											<br> Personal Use
-											</a>
-										</div>
-										<div class="col-sm-3  text-center">
-											<a href="business.html" class="btn btn-primary btn-lg btn-block btn-huge">
-												<i class="fas fa-briefcase fa-2x"></i>
-												<br>Business Use
-												</a>
-												<div class="col-sm-3 text-left "></div>
-											</div>
-											<br>
-												<div class="container-fluid">
-													<div class="col-sm-12 text-center">
-														<h4>Take a "scroll" through our photo gallery of St. Louis Neighborhoods below.</h4>
-														<h5>External resource links are provided at the bottom of each photo.</h5>
-													</div>
-												</div>
-												<div class="container-fluid">
-													<div id="myCarousel" class="carousel slide" data-ride="carousel">
-														<!-- No Indicators Needed too many photos -->
-														<!-- Wrapper for slides -->
-														<div class="carousel-inner" role="listbox">
-															<div class="item active">
-																<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Cabanne_in_Academy_%286792842477%29.jpg/800px-Cabanne_in_Academy_%286792842477%29.jpg" alt="Academy">
-																	<div class="carousel-caption">
-																		<h1>Academy</h1>
-																		<h3>
-																			<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Academy>Click for more info </a>
-																		</h3>
-																	</div>
-																</div>
-																<div class="item">
-																	<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Broadway_in_Baden_%289337536785%29.jpg" alt="Baden">
-																		<div class="carousel-caption">
-																			<h1>Baden</h1>
-																			<h3>
-																				<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Baden>Click for more info </a>
+							<!-- Nav Bar -->
+  
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+        <a class="navbar-brand" href="/" style = "margin-top:-13px">Invest St. Louis</br>Home Page</a>
+        <a class="navbar-brand" href="PersonalLandingPage.html" style = "margin-top:-13px" >Invest St. Louis</br>Personal Home Page</a>
+        <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarCollapse" >
+            <ul class="navbar-nav" style = "float:right" >
+                <li class="navbar-item">
+                    <a href="personal_criteria.html" class="nav-link" style = "text-align:center">Explore By</br>Criteria</a>
+                </li>
+                <li class="navbar-item" >
+                    <a href="personal_zips.html" class="nav-link" style = "text-align:center">Explore By</br>Zip</a>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style = "text-align:center">
+                    Explore STL</br>By Criteria</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/Maps.html">Maps</a>
+                        <a class="dropdown-item" href="/Population.html">Population</a>
+                        <a class="dropdown-item" href="/Crime.html">Crime</a>
+                        <a class="dropdown-item" href="/Income.html">Income</a>
+                        <a class="dropdown-item" href="https://roricooper.github.io/"> Education</a>
+                        <a class="dropdown-item" href="https://github.com/rkalhorn/project1/tree/master/Project%201"> Businesses Github repo</a>
+                        <a class="dropdown-item" href="/DiscoverStLouis.pptx"> Project Power Point Presenation</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	<div class = "container-fluid" >
+	    <br>
+		<div class="header" text-align:center>
+			<h1>Personal Investment in St. Louis </h1>
+        </div>
+        <div class="row content">
+            <div class="col-sm-2 text-center"></div>
+            <div class="col-sm-8">
+                This page is designed to help you decide how and where you want to invest in St. Louis. We have 2 avenues 
+                for you to gather information in your process.
+            </div>
+            <div class="col-sm-2 text-center"></div>
+        </div>
+    </br>
+        <div class="row content">
+            <div class="col-sm-2 text-center"></div>
+            <div class="col-sm-4">
+                <h4><a href="personal_criteria.html" >By Criteria</a>:</h4>
+                In this section you can select various criteria that you would like to explore by zip code. 
+                You can also rank criteria in order of importance to you and zip codes that most closely match
+                your critieria will be displayed.  
+            </div>
+            <div class="col-sm-4">
+                <h4><a href="personal_zips.html" >By Zip</a>:</h4>
+                If you already know a zip you are interested in exploring, this is the page you will want. 
+                This page will give you some information about the zip code as well as a map with important
+                places marked. 
+            </div>
+            <div class="col-sm-2 text-center"></div>
+        </div>
+	</div>
+	<div class="">
+		
+	<div class="container-fluid">
+		<div class="col-sm-12 text-center">
+			<h4>Take a "scroll" through our photo gallery of St. Louis Neighborhoods below.</h4>
+            <h5>External resource links are provided at the bottom of each photo.</h5>
+
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- No Indicators Needed too many photos -->
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+	    			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Cabanne_in_Academy_%286792842477%29.jpg/800px-Cabanne_in_Academy_%286792842477%29.jpg" alt="Academy">
+						<div class="carousel-caption">
+							<h1>Academy</h1>
+							<h3>
+								<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Academy>Click for more info </a>
+							</h3>
+						</div>
+				</div>
+				<div class="item">
+				    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Broadway_in_Baden_%289337536785%29.jpg" alt="Baden">
+					<div class="carousel-caption">
+					    <h1>Baden</h1>
+						<h3>
+						<a href=https://www.stlouis-mo.gov/government/departments/public-safety/neighborhood-stabilization-office/neighborhoods/profile.cfm?neighborhood=Baden>Click for more info </a>
 																			</h3>
 																		</div>
 																	</div>

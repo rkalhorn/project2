@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-            <title>Personal Invest St. Louis by Criteria</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-            <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-            <!-- <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css/" > -->
+        <title>Personal By Criteria (Project 2)</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+        <link rel="stylesheet" href="../static/css/style.css" type="text/css">
             
-            <link rel="stylesheet" href="../static/css/styleCriteria.css" type="text/css">
-            
-            <!-- Leaflet JS & CSS -->
-            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-            <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+        <!-- Leaflet JS & CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
         
-            <!-- d3 JavaScript -->
-            <script src="https://d3js.org/d3.v4.min.js"></script> 
+        <!-- d3 JavaScript -->
+        <script src="https://d3js.org/d3.v4.min.js"></script> 
+        <style>
+                /* Add a gray background color and some padding to the footer */
+                footer {
+                    background-color: #f2f2f2;
+                    padding: 25px;
+                }
+                 
+                body {         
+                    background-color: rgb(189, 194, 192)
+                }
+                
+                @media (max-width: 600px) {
+                    .carousel-caption {
+                        display: none;
+                    }
+                }
+            </style>
+    
+        </head>
+                        
+    <!-- Page Title-->
+    <body background="../static/img/bgtrans.PNG">
+                    
 
-    </head>
-
-<body>
-  <!-- Page Title-->
-  <div class="header" text-align:center>
-        <img src="../static/img/arch4.png" alt="arch4"/>
-        <h1> Invest St. Louis</h1>
-        <h1> Personal By Criteria</h1>
-  </div>
 
  
-    <!-- Nav Bar -->
+       <!-- Nav Bar -->
   
-  
-    <nav class="navbar navbar-light bg-light navbar-expand-lg">
-        <a class="navbar-brand" href="index.html" style = "text-align:center">Back to</br>Home Page</a>
-        <a class="navbar-brand" href="personal.html"  style = "text-align:center">Back to</br>Personal Home Page</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="navbar-item">
-                    <a href="personal_criteria.html" class="nav-link" style = "text-align:center">Explore By</br>Criteria</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="personal_zip.html" class="nav-link" style = "text-align:center">Explore By</br>Zip</a>
-                </li>
-                <li class="navbar-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style = "text-align:center">
-                        Project 1 Links</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/Maps.html">Maps</a>
-                        <a class="dropdown-item" href="/Population.html">Population</a>
-                        <a class="dropdown-item" href="/Crime.html">Crime</a>
-                        <a class="dropdown-item" href="/Income.html">Income</a>
-                        <a class="dropdown-item" href="https://roricooper.github.io/"> Education</a>
-                        <a class="dropdown-item" href="https://github.com/rkalhorn/project1/tree/master/Project%201"> Businesses Github repo</a>
-                        <a class="dropdown-item" href="/DiscoverStLouis.pptx"> Project Power Point Presenation</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav> 
-    <hr>
-
-    <div class="wrapper">
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Choose How to Explore St. Louis Zips</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a value="filter" style = "cursor:pointer" onclick = dropDownSelectedFunction(this)>Filter Zips based on Criteria You Rank By Importance</a>
-                <a value="explore" style = "cursor:pointer" onclick = dropDownSelectedFunction(this)>Choose Criteria you Want Visualizations of By Zip </a>
+       <nav class="navbar navbar-light bg-light navbar-expand-lg">
+            <a class="navbar-brand" href="/" >Invest St. Louis</br>Home Page</a> 
+            <a class="navbar-brand" href="PersonalLandingPage.html" >Invest St. Louis</br>Personal Home Page</a>
+            <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarCollapse" >
+                <ul class="navbar-nav ml-auto" >
+                    <li class="navbar-item">
+                        <a href="personal_criteria.html" class="nav-link" style = "text-align:center">Explore By</br>Criteria</a>
+                    </li>
+                    <li class="navbar-item" >
+                        <a href="personal_zips.html" class="nav-link" style = "text-align:center">Explore By</br>Zip</a>
+                    </li>
+                    <li class="navbar-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style = "text-align:center">
+                        Explore STL</br>By Criteria</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/Maps.html">Maps</a>
+                            <a class="dropdown-item" href="/Population.html">Population</a>
+                            <a class="dropdown-item" href="/Crime.html">Crime</a>
+                            <a class="dropdown-item" href="/Income.html">Income</a>
+                            <a class="dropdown-item" href="https://roricooper.github.io/"> Education</a>
+                            <a class="dropdown-item" href="https://github.com/rkalhorn/project1/tree/master/Project%201"> Businesses Github repo</a>
+                            <a class="dropdown-item" href="/DiscoverStLouis.pptx"> Project Power Point Presenation</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>  
-    </div>
+        </nav>
+        <hr>
+        
+        <div class="container fluid text-center">      
+            <h1>Invest in St. Louis</br>By Criteria</h1>    
+            <h2>Choose How to Explore</h2>    
+            
+            <div class="wrapper">
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()" > Select an Option </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a value="filter" style = "cursor:pointer" onclick = dropDownSelectedFunction(this)>Rank Criteria By Importance</a>
+                        <a value="explore" style = "cursor:pointer" onclick = dropDownSelectedFunction(this)>Choose Criteria You Want to See</a>
+                    </div>
+                </div>  
+            </div>
 
 
-    <div class="container-fluid">
+    
         <div class = "row content" style = "text-align: center" id="filter">
-                <div class = "col-sm-2"></div>
             <div class = "col-sm-2 text-left">
                 High Business Rating</br>
                 <select id = "businessImportance" onchange = importanceDropDown(this)>
@@ -91,6 +103,7 @@
                     <option value="4">Least Important</option>
                 </select>    
             </div>
+            <div class = "col-sm-1"></div>
             <div class = "col-sm-2 text-left">
                 Low Crime Rating</br>
                 <select id = "crimeImportance" onchange = importanceDropDown(this)>
@@ -101,6 +114,7 @@
                     <option value="4">Least Important</option>
                 </select>   
             </div>
+            <div class = "col-sm-1"></div>
             <div class = "col-sm-2 text-left">
                 High Education Rating</br>
                 <select id = "educationImportance" onchange = importanceDropDown(this)>
@@ -111,6 +125,7 @@
                     <option value="4">Least Important</option>
                 </select>     
             </div>
+            <div class = "col-sm-1"></div>
             <!-- <div class = "col-sm-2 text-left">
                 Moderate to High Ave Income</br>
                 <select>
@@ -121,7 +136,7 @@
                     <option value="DNC">Do Not Consider</option>
                 </select>    
             </div> -->
-            <div class = "col-sm-2 text-left">
+            <div class = "col-sm-3 text-left">
                 Moderately Priced Realty</br>
                 <select id = "realtyImportance" onchange = importanceDropDown(this)>
                     <option disabled selected value ></option>
@@ -131,6 +146,7 @@
                     <option value="4">Least Important</option>
                 </select>     
             </div>
+
             <!-- <div class = "col-sm-2 text-left">
                 Age</br>
                 <select>
@@ -141,7 +157,6 @@
                     <option value="DNC">Do Not Consider</option>
                 </select>    
             </div> -->
-            <div class = "col-sm-2"></div>
         </div>
 
 
@@ -172,15 +187,11 @@
 
 
         <div class="row content">
-            <div class="col-sm-8 text-left ">
-                </br>  </br>  </br> 
-                <p><center><big><big><big><big> MAP</big></big></big></big></br>
-                    with highlighted zip codes darker the better the match and mouse over for greater detail</center>
-                </p> 
-                </br>    
-            </div>
+                <div class="col-sm-6 text-left">
+                        <div id="map"></div>
+                </div>
 
-        <div class="col-sm-4 text-center"> 
+        <div class="col-sm-6 text-center"> 
             </br>  </br>  </br> 
             <center>
                 <big><big><big><big> List of Zips</big></big></big></big></br>

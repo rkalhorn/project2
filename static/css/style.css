@@ -3,9 +3,13 @@ html, body, #container /*, and all other map parent selectors*/ {
   /* overflow: hidden; */
   width: 100%;
 }
+
+
+
 #map {
   width: auto;
   height: 100%;
+  position:relative;
 }
 
 
@@ -63,6 +67,10 @@ p{
   text-align: center;
 }
 
+.bg-light{
+  background-color: transparent!important;
+}
+
 nav ul li { 
   list-style:none;
   margin-right: 10px; 
@@ -88,6 +96,72 @@ hr {
   background-color: darkgrey;
   height: 1px;
 }
+
+.checkboxes {
+  text-align:center;
+
+ }
+
+.checkboxes input{
+  margin: 0px 0px 0px 0px;
+ }
+
+ .checkboxes label{
+   margin: 0px 20px 0px 3px;
+   font-size: 20px;
+ }
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 400px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
 
 @media screen and (max-width: 600px) {
   nav[role="custom-dropdown"] {

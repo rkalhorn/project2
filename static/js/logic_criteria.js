@@ -1,14 +1,12 @@
 document.getElementById("filter").style.visibility = "hidden";
 document.getElementById("explore").style.visibility = "hidden";
 
-//importance levels for business, crime, education, and realty in this order. Initialized all to zero.
-var importance = [0,0,0,0];
-var categories = ["business", "crime","education", "realty"];
 // Creating map object
 var map = L.map("map", {
     center: [38.6270, -90.1994],
     zoom: 12
 });
+
 
 //setTimeout(map.invalidateSize(), 1000);
 
@@ -18,6 +16,33 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     id: "mapbox.streets",
     accessToken: API_KEY
 }).addTo(map);
+
+var mapmargin = 50;
+$('#map').css("height", ($(window).height() - mapmargin));
+$(window).on("resize", resize);
+resize();
+function resize(){
+
+    if($(window).width()>=980){
+        $('#map').css("height", ($(window).height() - mapmargin));    
+        $('#map').css("margin-top",50);
+    }else{
+        $('#map').css("height", ($(window).height() - (mapmargin+12)));    
+        $('#map').css("margin-top",-21);
+    }
+
+}
+map.invalidateSize();
+
+
+
+
+
+//importance levels for business, crime, education, and realty in this order. Initialized all to zero.
+var importance = [0,0,0,0];
+var categories = ["business", "crime","education", "realty"];
+
+
 
 //document.getElementById("filter-btn").addEventListener("click", clickFunction);
 /* When the user clicks on the button, 
@@ -86,6 +111,8 @@ window.onclick = function(event) {
     }
   }
 }
+
+
 
 // // geoJson URL
 // var link = "http://data.beta.nyc//dataset/0ff93d2d-90ba-457c-9f7e-39e47bf2ac5f/resource/" +
